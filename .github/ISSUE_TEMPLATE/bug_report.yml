@@ -1,0 +1,19 @@
+name: 🐛 Bug / Framework Update
+description: Report an issue or suggest a framework version update in an existing skill
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: input
+    id: skill_affected
+    attributes:
+      label: Affected Skill
+      placeholder: e.g., VJSS_Pythonfastapi, VJSS_DockerMaster
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of Issue
+      description: Explain what syntax error, deprecated API, or edge case occurred.
+    validations:
+      required: true

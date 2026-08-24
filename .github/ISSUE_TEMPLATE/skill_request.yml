@@ -1,0 +1,31 @@
+name: 💡 Skill Request
+description: Propose a new specialized AI engineering protocol for VJSS
+title: "[Skill Request]: "
+labels: ["skill-request", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new skill for **VJSS**!
+  - type: input
+    id: skill_name
+    attributes:
+      label: Proposed Skill Name
+      description: e.g., VJSS_SolanaRust, VJSS_ElixirPhoenix, VJSS_SwiftVapor
+      placeholder: VJSS_<TechnologyName>
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use Case & Purpose
+      description: What specific problem or workflow does this skill automate for AI agents?
+    validations:
+      required: true
+  - type: textarea
+    id: code_pattern
+    attributes:
+      label: Production Code Patterns / Frameworks
+      description: Key libraries, architectural patterns, and standard directory layouts.
+    validations:
+      required: false

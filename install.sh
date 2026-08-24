@@ -8,7 +8,27 @@
 
 set -e
 
-REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
+# Detect if running from local clone or remote curl piping
+SCRIPT_DIR="$(cd "$(dirname "$0")" 2>/dev/null && pwd || echo "")"
+TEMP_CLONE=""
+
+cleanup() {
+    if [ -n "${TEMP_CLONE}" ] && [ -d "${TEMP_CLONE}" ]; then
+        rm -rf "${TEMP_CLONE}"
+    fi
+}
+trap cleanup EXIT INT TERM
+
+if [ -f "${SCRIPT_DIR}/txt_skills/VJSS_UniversalCopilot.txt" ]; then
+    REPO_DIR="${SCRIPT_DIR}"
+else
+    # Running via remote curl | bash -> fetch shallow clone into temp directory
+    TEMP_CLONE="$(mktemp -d)"
+    echo "⚡ Fetching VJSS Super-Skills from GitHub into temporary environment..."
+    git clone --depth 1 https://github.com/mrvishaljjoshi-cmyk/VJSS.git "${TEMP_CLONE}" >/dev/null 2>&1
+    REPO_DIR="${TEMP_CLONE}"
+fi
+
 COPILOT_FILE="${REPO_DIR}/txt_skills/VJSS_UniversalCopilot.txt"
 
 # Text Colors
@@ -58,69 +78,78 @@ install_antigravity() {
 }
 
 install_cursor() {
-    echo "${BLUE}[3/5] Installing VJSS_UniversalCopilot for Cursor IDE (.cursorrules)...${NC}"
-    cat "${COPILOT_FILE}" > .cursorrules
+    echo "${BLUE}[3/5] Installing VJSS_UniversalCopilot for Cursor IDE (.cursorrules & .cursor/rules/)...${NC}"
     mkdir -p .cursor/rules
-    cp "${REPO_DIR}/txt_skills/"*.txt .cursor/rules/ 2>/dev/null || true
-    echo "${GREEN}✓ Successfully created .cursorrules and .cursor/rules/${NC}"
+    cat "${COPILOT_FILE}" > .cursorrules
+    cat "${COPILOT_FILE}" > .cursor/rules/vjss_universal_copilot.mdc
+    echo "${GREEN}✓ Successfully created .cursorrules and .cursor/rules/vjss_universal_copilot.mdc${NC}"
     show_startup_mandate
 }
 
 install_windsurf() {
-    echo "${BLUE}[4/5] Installing VJSS_UniversalCopilot for Windsurf IDE (.windsurfrules)...${NC}"
+    echo "${BLUE}[4/5] Installing VJSS_UniversalCopilot for Windsurf Cascade (.windsurfrules)...${NC}"
+    mkdir -p .
     cat "${COPILOT_FILE}" > .windsurfrules
     echo "${GREEN}✓ Successfully created .windsurfrules${NC}"
     show_startup_mandate
 }
 
 install_vscode() {
-    echo "${BLUE}[5/5] Installing VJSS_UniversalCopilot for VS Code / Copilot / Roo / Cline...${NC}"
+    echo "${BLUE}[5/5] Installing VJSS_UniversalCopilot for VS Code, GitHub Copilot & Roo-Code...${NC}"
     mkdir -p .github
     cat "${COPILOT_FILE}" > .github/copilot-instructions.md
     echo "${GREEN}✓ Successfully created .github/copilot-instructions.md${NC}"
-    echo "${YELLOW}ℹ For Roo-Code & Cline: Paste txt_skills/VJSS_UniversalCopilot.txt into Custom Instructions.${NC}"
     show_startup_mandate
 }
 
 install_all() {
+    echo "${CYAN}${BOLD}Installing VJSS across ALL supported AI coding environments...${NC}\n"
     install_claude
     install_antigravity
     install_cursor
     install_windsurf
     install_vscode
-    echo ""
-    echo "${GREEN}${BOLD}🎉 ALL TOOLS CONFIGURED SUCCESSFULLY!${NC}"
-    echo "${CYAN}Now simply talk to your AI agent naturally — VJSS_UniversalCopilot will auto-call any of the 130 domain skills on demand!${NC}"
+    echo "${GREEN}${BOLD}🎉 SUCCESS: VJSS Universal Copilot is now active across ALL AI tools!${NC}"
 }
 
+# Main Execution Switch
+show_banner
+
 case "$1" in
-    --claude|-c) show_banner; install_claude ;;
-    --antigravity|--agy|-a) show_banner; install_antigravity ;;
-    --cursor|-cu) show_banner; install_cursor ;;
-    --windsurf|-w) show_banner; install_windsurf ;;
-    --vscode|-v) show_banner; install_vscode ;;
-    --all) show_banner; install_all ;;
-    *)
-        show_banner
-        echo "${BOLD}Select target AI tool to install VJSS_UniversalCopilot:${NC}"
-        echo "  1) Claude Code CLI (CLAUDE.md)"
-        echo "  2) Google Antigravity CLI (~/.gemini/config/skills/)"
-        echo "  3) Cursor IDE (.cursorrules & .cursor/rules/)"
-        echo "  4) Windsurf IDE (.windsurfrules)"
-        echo "  5) VS Code (GitHub Copilot instructions)"
-        echo "  6) Install ALL Tools"
-        echo "  q) Quit"
+    --claude)
+        install_claude
+        ;;
+    --agy|--antigravity)
+        install_antigravity
+        ;;
+    --cursor)
+        install_cursor
+        ;;
+    --windsurf)
+        install_windsurf
+        ;;
+    --vscode|--copilot)
+        install_vscode
+        ;;
+    --all|"")
+        install_all
+        ;;
+    --help|-h)
+        echo "Usage: ./install.sh [OPTION]"
+        echo "Or:    curl -fsSL https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/install.sh | bash -s -- [OPTION]"
         echo ""
-        printf "${YELLOW}Enter selection [1-6, q]: ${NC}"
-        read -r choice
-        case "$choice" in
-            1) install_claude ;;
-            2) install_antigravity ;;
-            3) install_cursor ;;
-            4) install_windsurf ;;
-            5) install_vscode ;;
-            6) install_all ;;
-            *) echo "Cancelled." ;;
-        esac
+        echo "Options:"
+        echo "  --all         Install across Claude Code, Antigravity, Cursor, Windsurf, and VS Code (Default)"
+        echo "  --claude      Configure for Claude Code (CLAUDE.md)"
+        echo "  --agy         Sync all 130 skills into Google Antigravity (~/.gemini/config/skills/)"
+        echo "  --cursor      Configure for Cursor IDE (.cursorrules & .cursor/rules/)"
+        echo "  --windsurf    Configure for Windsurf Cascade (.windsurfrules)"
+        echo "  --vscode      Configure for VS Code & GitHub Copilot (.github/copilot-instructions.md)"
+        echo "  --help        Show this help message"
+        ;;
+    *)
+        echo "Unknown option: $1"
+        echo "Run './install.sh --help' for usage instructions."
+        exit 1
         ;;
 esac

@@ -7,6 +7,8 @@
 [![Skills: 130 Total](https://img.shields.io/badge/Skills-130%20Total-brightgreen.svg)](INDEX.md)
 [![Format: Pure Plain--Text](https://img.shields.io/badge/Format-Pure%20Plain--Text%20(.txt)-blueviolet.svg)](txt_skills/)
 [![Gateway: UniversalCopilot](https://img.shields.io/badge/Gateway-VJSS__UniversalCopilot-red.svg)](txt_skills/VJSS_UniversalCopilot.txt)
+[![Quality Benchmark](https://img.shields.io/badge/Quality%20Benchmark-100%2F100%20A%2B-brightgreen.svg)](tests/benchmark_suite.py)
+[![CI Quality Gate](https://github.com/mrvishaljjoshi-cmyk/VJSS/actions/workflows/benchmark.yml/badge.svg)](https://github.com/mrvishaljjoshi-cmyk/VJSS/actions)
 [![GitHub Stars](https://img.shields.io/github/stars/mrvishaljjoshi-cmyk/VJSS?style=social)](https://github.com/mrvishaljjoshi-cmyk/VJSS)
 
 **VJSS (Vishal Joshi Super-Skills)** is the ultimate production-grade collection of **130 specialized AI engineering protocols and prompt skills**, created and architected by **Mr. Vishalkumar Joshi**. Built in **pure plain-text (`.txt`)**, it gives autonomous AI agents and pair-programming assistants superhuman capabilities across architecture, backend, frontend, cloud, security, and algorithmic fintech.
@@ -292,6 +294,13 @@ VJSS/
 | **`VJSS_UniversalCopilot`** ⭐ **[MASTER GATEWAY]** | Master Personal AI Assistant & Skill Orchestrator. Analyzes & refines user intent, dynamically routes 130+ VJSS skills, minimizes token consumption, remembers conversational history, provides proactive recommendations, and guides setup across all AI tools. | [`txt_skills/VJSS_UniversalCopilot.txt`](txt_skills/VJSS_UniversalCopilot.txt) |
 
 ---
+
+
+## 🤝 Community Contributions & Creator Protection
+
+We welcome community contributions! Please read our [**CONTRIBUTING.md**](CONTRIBUTING.md) to understand our **7-Pillar Fool-Proof Quality Standard** and **Creator & Contributor Attribution Guidelines**.
+
+All Pull Requests are automatically validated by our [**GitHub Actions CI Benchmark Suite**](.github/workflows/benchmark.yml).
 
 ## 👤 Creator & Lead Architect
 
