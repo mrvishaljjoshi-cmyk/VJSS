@@ -6,7 +6,7 @@ WEBSITE        : https://vjprojects.co.in
 GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
 REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
 CATEGORY       : 06_Universal_Orchestration_Operations
-DESCRIPTION    : Automated and structured Git workflow for EnterpriseAnalyticsEngine. Use to generate conventional commit messages, push changes, and create pull requests using the GitHub CLI (gh).
+DESCRIPTION    : Automated and structured Git workflow for Enterprise Engineering Applications. Use to generate conventional commit messages, push changes, and create pull requests using the GitHub CLI (gh).
 VERSION        : 2.3.0 Exhaustive Production Standard
 COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================

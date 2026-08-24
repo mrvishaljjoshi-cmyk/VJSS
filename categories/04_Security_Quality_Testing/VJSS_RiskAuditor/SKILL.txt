@@ -6,7 +6,7 @@ WEBSITE        : https://vjprojects.co.in
 GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
 REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
 CATEGORY       : 04_Security_Quality_Testing
-DESCRIPTION    : Head of Quality Assurance & Risk Management. Use for capital protection auditing, code reviews, signal veto verification, and enforcing the 5% daily profit pause mandate.
+DESCRIPTION    : Head of Quality Assurance & Risk Management. Use for capital protection auditing, code reviews, signal veto verification, and enforcing portfolio drawdown limits and risk management guardrails.
 VERSION        : 2.3.0 Exhaustive Production Standard
 COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================

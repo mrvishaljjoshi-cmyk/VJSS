@@ -6,7 +6,7 @@ WEBSITE        : https://vjprojects.co.in
 GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
 REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
 CATEGORY       : 06_Universal_Orchestration_Operations
-DESCRIPTION    : Guided feature development workflow for EnterpriseAnalyticsEngine. Use when adding new components, broker integrations, or backend services. Follows a systematic 7-phase approach: Discovery, Exploration, Questions, Architecture, Implementation, Quality Review, and Summary.
+DESCRIPTION    : Guided feature development workflow for Enterprise Engineering Applications. Use when adding new components, broker integrations, or backend services. Follows a systematic 7-phase approach: Discovery, Exploration, Questions, Architecture, Implementation, Quality Review, and Summary.
 VERSION        : 2.3.0 Exhaustive Production Standard
 COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================

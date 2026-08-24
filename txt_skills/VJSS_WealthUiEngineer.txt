@@ -6,7 +6,7 @@ WEBSITE        : https://vjprojects.co.in
 GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
 REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
 CATEGORY       : 03_Frontend_Mobile_UI
-DESCRIPTION    : Head of Wealth Executive UI & Client Portals. Use for Telegram bot message formatting, EnterpriseAnalyticsEngine frontend (HTML/CSS/JS) development, and responsive UI/UX perfection.
+DESCRIPTION    : Head of Wealth Executive UI & Client Portals. Use for Telegram bot message formatting, Enterprise Engineering Applications frontend (HTML/CSS/JS) development, and responsive UI/UX perfection.
 VERSION        : 2.3.0 Exhaustive Production Standard
 COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================

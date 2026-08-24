@@ -6,7 +6,7 @@ WEBSITE        : https://vjprojects.co.in
 GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
 REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
 CATEGORY       : 02_Backend_Cloud_DevOps
-DESCRIPTION    : Head of Core Infrastructure & DBRE. Use for MariaDB/Redis management, Ubuntu Proot environment tuning, background service (PM2/Systemd) configuration, and network security.
+DESCRIPTION    : Head of Core Infrastructure & DBRE. Use for MariaDB/Redis management, Linux server optimization and performance tuning, background service (PM2/Systemd) configuration, and network security.
 VERSION        : 2.3.0 Exhaustive Production Standard
 COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================
