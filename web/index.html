@@ -2,175 +2,311 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VJSS: Universal AI Agent Super-Skills | Mr. Vishalkumar Joshi</title>
-    <meta name="description" content="130 Production-Grade Plain-Text AI Agent Skills & Prompts by Mr. Vishalkumar Joshi.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>VJSS: Universal AI Agent Super-Skills | VJ PROJECTS</title>
+    <meta name="description" content="130 Production-Grade Plain-Text AI Agent Skills & Engineering Protocols created by Mr. Vishalkumar Joshi.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@600;800;900&display=swap');
+        
         :root {
-            --bg-primary: #0a0e17;
-            --bg-card: rgba(18, 26, 43, 0.85);
-            --accent-cyan: #00e5ff;
-            --accent-purple: #7c4dff;
-            --text-primary: #f0f6fc;
-            --text-secondary: #8b949e;
-            --border-color: rgba(255, 255, 255, 0.1);
+            --bg-pure: #030712;
+            --neon-cyan: #00e5ff;
+            --neon-purple: #a855f7;
+            --glass-bg: rgba(17, 24, 39, 0.75);
         }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            font-family: 'Inter', sans-serif;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            background-image: radial-gradient(circle at 50% 0%, rgba(124, 77, 255, 0.15), transparent 50%),
-                              radial-gradient(circle at 100% 100%, rgba(0, 229, 255, 0.1), transparent 40%);
+
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            background: var(--bg-pure); 
+            color: #f3f4f6; 
+            overflow-x: hidden;
         }
-        header { text-align: center; padding: 3rem 1.5rem 2rem; max-width: 1200px; margin: 0 auto; }
-        .badge {
-            display: inline-block; padding: 0.35rem 0.85rem; border-radius: 9999px;
-            background: rgba(0, 229, 255, 0.15); color: var(--accent-cyan);
-            font-size: 0.85rem; font-weight: 600; margin-bottom: 1rem;
-            border: 1px solid rgba(0, 229, 255, 0.3);
+
+        .font-code { font-family: 'JetBrains Mono', monospace; }
+        .font-display { font-family: 'Outfit', sans-serif; }
+
+        .glass-card { 
+            background: var(--glass-bg); 
+            backdrop-filter: blur(16px); 
+            border: 1px solid rgba(255, 255, 255, 0.08); 
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); 
         }
-        h1 {
-            font-size: 2.75rem; font-weight: 800; line-height: 1.2;
-            background: linear-gradient(135deg, #ffffff 0%, var(--accent-cyan) 50%, var(--accent-purple) 100%);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 1rem;
+
+        .glass-card:hover {
+            border-color: var(--neon-cyan);
+            box-shadow: 0 0 25px rgba(0, 229, 255, 0.2);
+            transform: translateY(-3px);
         }
-        p.subtitle { color: var(--text-secondary); font-size: 1.15rem; max-width: 700px; margin: 0 auto 1.5rem; }
-        .creator-bar { font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 2rem; }
-        .creator-bar a { color: var(--accent-cyan); text-decoration: none; font-weight: 600; }
-        .search-container { max-width: 800px; margin: 0 auto 2rem; }
-        .search-input {
-            width: 100%; padding: 1rem 1.5rem; border-radius: 12px;
-            background: var(--bg-card); border: 1px solid var(--border-color);
-            color: #fff; font-size: 1.1rem; outline: none;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4); transition: border-color 0.2s;
-        }
-        .search-input:focus { border-color: var(--accent-cyan); }
-        .filters { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin-bottom: 2.5rem; }
-        .filter-btn {
-            background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border-color);
-            color: var(--text-secondary); padding: 0.5rem 1rem; border-radius: 8px;
-            font-size: 0.9rem; cursor: pointer; transition: all 0.2s;
-        }
-        .filter-btn.active, .filter-btn:hover { background: var(--accent-purple); color: #fff; border-color: var(--accent-purple); }
-        .skills-grid {
-            display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1.5rem; max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; flex: 1;
-        }
-        .skill-card {
-            background: var(--bg-card); border: 1px solid var(--border-color);
-            border-radius: 14px; padding: 1.5rem; display: flex; flex-direction: column;
-            justify-content: space-between; transition: transform 0.2s, border-color 0.2s;
-        }
-        .skill-card:hover { transform: translateY(-4px); border-color: var(--accent-cyan); }
-        .skill-name { font-family: 'Fira Code', monospace; font-size: 1.1rem; font-weight: 600; color: var(--accent-cyan); margin-bottom: 0.5rem; }
-        .skill-cat { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent-purple); margin-bottom: 0.75rem; font-weight: 700; }
-        .skill-desc { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5; margin-bottom: 1.25rem; flex: 1; }
-        .card-actions { display: flex; gap: 0.5rem; }
-        .btn { flex: 1; padding: 0.6rem; border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-align: center; text-decoration: none; cursor: pointer; border: none; }
-        .btn-copy { background: rgba(0, 229, 255, 0.15); color: var(--accent-cyan); border: 1px solid rgba(0, 229, 255, 0.3); }
-        .btn-view { background: rgba(255, 255, 255, 0.05); color: var(--text-primary); border: 1px solid var(--border-color); }
-        footer { text-align: center; padding: 3rem 1.5rem; color: var(--text-secondary); font-size: 0.9rem; border-top: 1px solid var(--border-color); margin-top: 4rem; }
-        footer a { color: var(--accent-cyan); text-decoration: none; }
+
+        .text-neon-cyan { color: var(--neon-cyan); }
+        .text-neon-purple { color: var(--neon-purple); }
+
+        #bg-canvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+        
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.3); border-radius: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #374151; border-radius: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #4b5563; }
+        
+        /* Modal Backdrop */
+        .modal-active { opacity: 1; pointer-events: auto; }
+        .modal-inactive { opacity: 0; pointer-events: none; }
     </style>
 </head>
-<body>
-    <header>
-        <div class="badge">🌟 130 Verified Production Protocols</div>
-        <h1>VJSS: Universal AI Agent Super-Skills</h1>
-        <p class="subtitle">Equip Claude Code, Cursor, Windsurf, Antigravity, and VS Code with production-grade engineering protocols.</p>
-        <div class="creator-bar">
-            Created & Architected by <strong><a href="https://vjprojects.co.in" target="_blank">Mr. Vishalkumar Joshi</a></strong> | 
-            <a href="https://github.com/mrvishaljjoshi-cmyk/VJSS" target="_blank">⭐ Star on GitHub</a>
+<body class="selection:bg-cyan-500/30 min-h-screen flex flex-col">
+
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Top Navigation -->
+    <nav class="fixed top-0 w-full z-40 px-6 py-4 backdrop-blur-2xl border-b border-white/5 bg-black/60 flex justify-between items-center">
+        <a href="index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-500 to-purple-600 flex items-center justify-center shadow-[0_0_20px_rgba(0,229,255,0.3)]">
+                <i class="fas fa-arrow-left text-white text-sm"></i>
+            </div>
+            <div>
+                <h1 class="text-sm font-black uppercase italic leading-none font-display">BACK TO <span class="text-neon-cyan">HUB</span></h1>
+                <p class="text-[8px] font-bold text-gray-400 tracking-[0.2em] uppercase font-code">vjprojects.co.in</p>
+            </div>
+        </a>
+        <div class="flex items-center gap-3">
+            <a href="https://github.com/mrvishaljjoshi-cmyk/VJSS" target="_blank" class="px-4 py-2 rounded-full bg-white/5 hover:bg-cyan-500 hover:text-black border border-white/10 text-xs font-bold font-code tracking-wider uppercase transition-all flex items-center gap-2">
+                <i class="fab fa-github"></i> ⭐ Star on GitHub
+            </a>
         </div>
-        <div class="search-container">
-            <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search 130 skills (e.g. FastAPI, Docker, React, OWASP, ATR Backtest)...">
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-10 px-4 max-w-6xl mx-auto text-center relative z-10">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-neon-cyan text-xs font-bold font-code uppercase tracking-wider mb-6">
+            <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+            130 Verified Plain-Text AI Protocols
         </div>
-        <div class="filters" id="filterContainer">
-            <button class="filter-btn active" data-cat="all">All (130)</button>
-            <button class="filter-btn" data-cat="01_AI_ML_DataScience">AI & ML (14)</button>
-            <button class="filter-btn" data-cat="02_Backend_Cloud_DevOps">Backend & Cloud (23)</button>
-            <button class="filter-btn" data-cat="03_Frontend_Mobile_UI">Frontend & Mobile (22)</button>
-            <button class="filter-btn" data-cat="04_Security_Quality_Testing">Security & QA (22)</button>
-            <button class="filter-btn" data-cat="05_Trading_Fintech_Strategy">Fintech & Strategy (12)</button>
-            <button class="filter-btn" data-cat="06_Universal_Orchestration_Operations">Universal (37)</button>
+        <h1 class="text-4xl md:text-6xl font-black italic uppercase tracking-tight mb-4 font-display text-white">
+            VJSS <span class="bg-gradient-to-r from-cyan-400 via-teal-300 to-purple-500 bg-clip-text text-transparent">Super-Skills</span>
+        </h1>
+        <p class="text-gray-400 text-base md:text-xl max-w-3xl mx-auto mb-4 font-medium">
+            Universal AI Agent Engineering Protocols with <strong>"Install 1st → Auto-Call Rest"</strong> dynamic routing &amp; 80/20 Token Shield.
+        </p>
+        <p class="text-xs md:text-sm font-code text-gray-500 mb-8">
+            Created &amp; Architected by <a href="https://vjprojects.co.in" class="text-neon-cyan hover:underline font-bold">Mr. Vishalkumar Joshi</a>
+        </p>
+
+        <!-- 1-Line Quick Install Box -->
+        <div class="max-w-3xl mx-auto glass-card rounded-2xl p-4 md:p-6 text-left border border-cyan-500/30 shadow-[0_0_30px_rgba(0,229,255,0.1)] mb-10">
+            <div class="flex justify-between items-center mb-3">
+                <span class="text-xs font-bold font-code uppercase tracking-wider text-cyan-400 flex items-center gap-2">
+                    <i class="fas fa-terminal"></i> 1-Line Quick Install (All AI Tools)
+                </span>
+                <span class="text-[10px] text-gray-500 font-code">Zero Cloning Required</span>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-2 items-center bg-black/70 p-2.5 rounded-xl border border-white/10 font-code text-xs">
+                <div class="flex-1 overflow-x-auto text-gray-200 select-all custom-scrollbar py-1">
+                    curl -fsSL https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/install.sh | bash -s -- --all
+                </div>
+                <button onclick="copyCommand('curl -fsSL https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/install.sh | bash -s -- --all', this)" class="w-full sm:w-auto px-4 py-2 bg-cyan-500/20 hover:bg-cyan-500 hover:text-black border border-cyan-500/40 text-cyan-300 rounded-lg font-bold text-xs transition-all whitespace-nowrap">
+                    📋 Copy Command
+                </button>
+            </div>
+            <div class="flex flex-wrap gap-4 mt-3 text-[11px] text-gray-400 font-code">
+                <span><i class="fas fa-check text-green-400 mr-1"></i> Claude Code</span>
+                <span><i class="fas fa-check text-green-400 mr-1"></i> Cursor IDE</span>
+                <span><i class="fas fa-check text-green-400 mr-1"></i> Windsurf</span>
+                <span><i class="fas fa-check text-green-400 mr-1"></i> Antigravity</span>
+                <span><i class="fas fa-check text-green-400 mr-1"></i> VS Code</span>
+            </div>
+        </div>
+
+        <!-- Search & Filter Controls -->
+        <div class="max-w-4xl mx-auto mb-4">
+            <div class="relative mb-6">
+                <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                <input type="text" id="skillSearch" placeholder="Search 130 skills (e.g. FastAPI, Docker, React, K8s, OWASP, ATR Backtesting)..." class="w-full pl-12 pr-4 py-3.5 rounded-xl bg-gray-900/80 border border-white/10 text-white font-body placeholder-gray-500 focus:outline-none focus:border-cyan-400 transition-colors shadow-lg">
+            </div>
+            <div class="flex flex-wrap gap-2 justify-center" id="categoryTabs">
+                <button class="cat-tab px-3.5 py-1.5 rounded-lg text-xs font-bold font-code uppercase tracking-wider bg-purple-600 text-white border border-purple-500 transition-all" data-cat="all">All (130)</button>
+                <button class="cat-tab px-3.5 py-1.5 rounded-lg text-xs font-bold font-code uppercase tracking-wider bg-gray-900/60 text-gray-400 border border-white/10 hover:text-white transition-all" data-cat="01_AI_ML_DataScience">AI &amp; ML (14)</button>
+                <button class="cat-tab px-3.5 py-1.5 rounded-lg text-xs font-bold font-code uppercase tracking-wider bg-gray-900/60 text-gray-400 border border-white/10 hover:text-white transition-all" data-cat="02_Backend_Cloud_DevOps">Backend &amp; Cloud (23)</button>
+                <button class="cat-tab px-3.5 py-1.5 rounded-lg text-xs font-bold font-code uppercase tracking-wider bg-gray-900/60 text-gray-400 border border-white/10 hover:text-white transition-all" data-cat="03_Frontend_Mobile_UI">Frontend &amp; UI (22)</button>
+                <button class="cat-tab px-3.5 py-1.5 rounded-lg text-xs font-bold font-code uppercase tracking-wider bg-gray-900/60 text-gray-400 border border-white/10 hover:text-white transition-all" data-cat="04_Security_Quality_Testing">Security &amp; QA (22)</button>
+                <button class="cat-tab px-3.5 py-1.5 rounded-lg text-xs font-bold font-code uppercase tracking-wider bg-gray-900/60 text-gray-400 border border-white/10 hover:text-white transition-all" data-cat="05_Trading_Fintech_Strategy">Fintech (12)</button>
+                <button class="cat-tab px-3.5 py-1.5 rounded-lg text-xs font-bold font-code uppercase tracking-wider bg-gray-900/60 text-gray-400 border border-white/10 hover:text-white transition-all" data-cat="06_Universal_Orchestration_Operations">Universal (37)</button>
+            </div>
         </div>
     </header>
 
-    <main class="skills-grid" id="skillsGrid"></main>
+    <!-- Skills Grid -->
+    <main class="max-w-6xl mx-auto px-4 pb-24 flex-1">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" id="skillsGridContainer"></div>
+    </main>
 
-    <footer>
-        <p>Created with ❤️ by <a href="https://vjprojects.co.in" target="_blank"><strong>Mr. Vishalkumar Joshi</strong></a> for software developers and AI agents worldwide.</p>
-        <p style="margin-top:0.5rem;"><a href="https://github.com/mrvishaljjoshi-cmyk/VJSS" target="_blank">GitHub Repository</a> • <a href="https://vjprojects.co.in" target="_blank">vjprojects.co.in</a></p>
+    <!-- Instant Skill Preview Modal -->
+    <div id="previewModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md modal-inactive transition-opacity duration-200">
+        <div class="glass-card w-full max-w-4xl max-h-[85vh] rounded-2xl flex flex-col border border-cyan-500/40 shadow-[0_0_50px_rgba(0,229,255,0.2)] overflow-hidden">
+            <!-- Modal Header -->
+            <div class="flex justify-between items-center px-6 py-4 border-b border-white/10 bg-gray-900/90">
+                <div class="flex items-center gap-3">
+                    <span id="modalCategory" class="text-[9px] font-bold font-code uppercase tracking-wider text-purple-400 bg-purple-950/80 px-2.5 py-0.5 rounded border border-purple-500/30"></span>
+                    <h3 id="modalTitle" class="text-base md:text-lg font-bold font-code text-cyan-300"></h3>
+                </div>
+                <div class="flex items-center gap-3">
+                    <button id="modalCopyBtn" onclick="copyModalSkill(this)" class="px-3.5 py-1.5 bg-cyan-500/20 hover:bg-cyan-500 hover:text-black border border-cyan-500/40 text-cyan-300 rounded-lg text-xs font-bold font-code transition-all">
+                        📋 Copy Skill
+                    </button>
+                    <a id="modalRawLink" href="#" target="_blank" class="px-3 py-1.5 bg-white/5 hover:bg-white/10 border border-white/10 text-gray-300 rounded-lg text-xs font-code hidden sm:inline-block">
+                        GitHub Raw ↗
+                    </a>
+                    <button onclick="closeModal()" class="w-8 h-8 rounded-lg bg-white/5 hover:bg-red-500/20 hover:text-red-400 border border-white/10 flex items-center justify-center text-gray-400 transition-colors">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Modal Body (Code View) -->
+            <div class="flex-1 overflow-y-auto p-4 md:p-6 bg-black/70 custom-scrollbar">
+                <pre id="modalContent" class="font-code text-xs text-gray-300 whitespace-pre-wrap leading-relaxed select-all"></pre>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/5 py-8 text-center text-xs text-gray-500 font-code">
+        <p>Created by <a href="https://vjprojects.co.in" class="text-cyan-400 font-bold hover:underline">Mr. Vishalkumar Joshi</a> • VJSS Ecosystem v2.3.0</p>
+        <p class="mt-2"><a href="index.html" class="hover:text-white">← Return to VJ Project Hub</a> | <a href="https://github.com/mrvishaljjoshi-cmyk/VJSS" target="_blank" class="hover:text-white">GitHub</a></p>
     </footer>
 
     <script>
-        let allSkills = [];
-        let currentCat = 'all';
+        const skillsDatabase = [{"name": "VJSS_A11yAuditor", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance A11yAuditor skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_A11yAuditor.txt"}, {"name": "VJSS_AiIntegrator", "category": "01_AI_ML_DataScience", "description": "Head of AI & LLM Engineering. Use for RAG (Retrieval-Augmented Generation) loops, vector database management, Ollama/Qwen2.5 integration, and AI signal validation logic.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_AiIntegrator.txt"}, {"name": "VJSS_Algobacktester", "category": "05_Trading_Fintech_Strategy", "description": "Universal high-performance Algobacktester skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Algobacktester.txt"}, {"name": "VJSS_Androidkotlin", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Androidkotlin skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Androidkotlin.txt"}, {"name": "VJSS_Angulararchitect", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Angulararchitect skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Angulararchitect.txt"}, {"name": "VJSS_Animationspecialist", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Animationspecialist skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Animationspecialist.txt"}, {"name": "VJSS_Ansibleexpert", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Ansibleexpert skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Ansibleexpert.txt"}, {"name": "VJSS_Apitester", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Apitester skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Apitester.txt"}, {"name": "VJSS_Asttransformer", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Asttransformer skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Asttransformer.txt"}, {"name": "VJSS_Authsystembuilder", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Authsystembuilder skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Authsystembuilder.txt"}, {"name": "VJSS_Awsarchitect", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Awsarchitect skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Awsarchitect.txt"}, {"name": "VJSS_Azurearchitect", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Azurearchitect skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Azurearchitect.txt"}, {"name": "VJSS_BrowserstackPro", "category": "04_Security_Quality_Testing", "description": "Universal high-performance BrowserstackPro skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_BrowserstackPro.txt"}, {"name": "VJSS_Browsertester", "category": "04_Security_Quality_Testing", "description": "Advanced headless browser testing and UI/UX validation engine. Capable of simulating user behavior, checking for visual regressions, and auditing DOM integrity.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Browsertester.txt"}, {"name": "VJSS_Calendaroptimizer", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Calendaroptimizer skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Calendaroptimizer.txt"}, {"name": "VJSS_Chaosmonkey", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Chaosmonkey skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Chaosmonkey.txt"}, {"name": "VJSS_CiCdPipelineBuilder", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance CiCdPipelineBuilder skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_CiCdPipelineBuilder.txt"}, {"name": "VJSS_Codereview", "category": "06_Universal_Orchestration_Operations", "description": "High-signal code review for Enterprise Engineering Applications. Use to audit pull requests or file changes for bugs, logic errors, and adherence to project conventions (project conventions and architecture guidelines). Focuses on correctness, security, and architectural integrity.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Codereview.txt"}, {"name": "VJSS_Compliancechecker", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Compliancechecker skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Compliancechecker.txt"}, {"name": "VJSS_CompressionWiz", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance CompressionWiz skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_CompressionWiz.txt"}, {"name": "VJSS_Coverageoptimizer", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Coverageoptimizer skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Coverageoptimizer.txt"}, {"name": "VJSS_Cryptoauditor", "category": "05_Trading_Fintech_Strategy", "description": "Universal high-performance Cryptoauditor skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Cryptoauditor.txt"}, {"name": "VJSS_Cryptotracker", "category": "05_Trading_Fintech_Strategy", "description": "Universal high-performance Cryptotracker skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Cryptotracker.txt"}, {"name": "VJSS_Cssgridpro", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Cssgridpro skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Cssgridpro.txt"}, {"name": "VJSS_D3visualizer", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance D3visualizer skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_D3visualizer.txt"}, {"name": "VJSS_Datacleaner", "category": "01_AI_ML_DataScience", "description": "Universal high-performance Datacleaner skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Datacleaner.txt"}, {"name": "VJSS_Deeplinkingwiz", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Deeplinkingwiz skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Deeplinkingwiz.txt"}, {"name": "VJSS_Demathistorian", "category": "05_Trading_Fintech_Strategy", "description": "Universal high-performance Demathistorian skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Demathistorian.txt"}, {"name": "VJSS_Dependencymanager", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Dependencymanager skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Dependencymanager.txt"}, {"name": "VJSS_DistributedPlatformCommander", "category": "06_Universal_Orchestration_Operations", "description": "Autonomous distributed platform and multi-node microservice orchestrator. Manages database synchronization, failover routing, and high-concurrency task execution.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_DistributedPlatformCommander.txt"}, {"name": "VJSS_Dividendtracker", "category": "05_Trading_Fintech_Strategy", "description": "Universal high-performance Dividendtracker skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Dividendtracker.txt"}, {"name": "VJSS_Djangoexpert", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Djangoexpert skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Djangoexpert.txt"}, {"name": "VJSS_Dockermaster", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Dockermaster skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Dockermaster.txt"}, {"name": "VJSS_DocsGenerator", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance DocsGenerator skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_DocsGenerator.txt"}, {"name": "VJSS_E2ECypress", "category": "04_Security_Quality_Testing", "description": "Universal high-performance E2ECypress skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_E2ECypress.txt"}, {"name": "VJSS_Emailtriage", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Emailtriage skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Emailtriage.txt"}, {"name": "VJSS_Encryptionexpert", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Encryptionexpert skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Encryptionexpert.txt"}, {"name": "VJSS_Expoexpert", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Expoexpert skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Expoexpert.txt"}, {"name": "VJSS_Featuredev", "category": "06_Universal_Orchestration_Operations", "description": "Guided feature development workflow for Enterprise Engineering Applications. Use when adding new components, broker integrations, or backend services. Follows a systematic 7-phase approach: Discovery, Exploration, Questions, Architecture, Implementation, Quality Review, and Summary.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Featuredev.txt"}, {"name": "VJSS_FintechDevops", "category": "02_Backend_Cloud_DevOps", "description": "Head of Core Infrastructure & DBRE. Use for MariaDB/Redis management, Linux server optimization and performance tuning, background service (PM2/Systemd) configuration, and network security.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_FintechDevops.txt"}, {"name": "VJSS_Firewallwiz", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Firewallwiz skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Firewallwiz.txt"}, {"name": "VJSS_Flutterdev", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Flutterdev skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Flutterdev.txt"}, {"name": "VJSS_Forexexpert", "category": "05_Trading_Fintech_Strategy", "description": "Universal high-performance Forexexpert skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Forexexpert.txt"}, {"name": "VJSS_Frontenddesign", "category": "03_Frontend_Mobile_UI", "description": "Create distinctive, production-grade frontend interfaces for the Enterprise Engineering Applications. Use when building web components, pages, or trading dashboards. Generates creative, polished code that avoids generic AI aesthetics while adhering to Enterprise Engineering Applications's native HTML/JS architecture.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Frontenddesign.txt"}, {"name": "VJSS_GcpPro", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance GcpPro skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_GcpPro.txt"}, {"name": "VJSS_Geminiapidev", "category": "01_AI_ML_DataScience", "description": "Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Geminiapidev.txt"}, {"name": "VJSS_Gitmaster", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Gitmaster skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Gitmaster.txt"}, {"name": "VJSS_Gitworkflow", "category": "06_Universal_Orchestration_Operations", "description": "Automated and structured Git workflow for Enterprise Engineering Applications. Use to generate conventional commit messages, push changes, and create pull requests using the GitHub CLI (gh).", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Gitworkflow.txt"}, {"name": "VJSS_GoogleWorkspacePro", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance GoogleWorkspacePro skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_GoogleWorkspacePro.txt"}, {"name": "VJSS_Graphqlmaster", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Graphqlmaster skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Graphqlmaster.txt"}, {"name": "VJSS_Grpcexpert", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Grpcexpert skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Grpcexpert.txt"}, {"name": "VJSS_IamPolicyExpert", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance IamPolicyExpert skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_IamPolicyExpert.txt"}, {"name": "VJSS_Insidertradingmonitor", "category": "05_Trading_Fintech_Strategy", "description": "Universal high-performance Insidertradingmonitor skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Insidertradingmonitor.txt"}, {"name": "VJSS_Ionicpro", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Ionicpro skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Ionicpro.txt"}, {"name": "VJSS_IosSwiftUi", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance IosSwiftUi skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_IosSwiftUi.txt"}, {"name": "VJSS_Jiramanager", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Jiramanager skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Jiramanager.txt"}, {"name": "VJSS_Jsontransformer", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Jsontransformer skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Jsontransformer.txt"}, {"name": "VJSS_K8SAdmin", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance K8SAdmin skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_K8SAdmin.txt"}, {"name": "VJSS_Knowledgebasewiz", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Knowledgebasewiz skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Knowledgebasewiz.txt"}, {"name": "VJSS_LoadTesterK6", "category": "04_Security_Quality_Testing", "description": "Universal high-performance LoadTesterK6 skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_LoadTesterK6.txt"}, {"name": "VJSS_Loganalyzer", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Loganalyzer skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Loganalyzer.txt"}, {"name": "VJSS_Meetingsummarizer", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Meetingsummarizer skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Meetingsummarizer.txt"}, {"name": "VJSS_Microserviceswiz", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Microserviceswiz skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Microserviceswiz.txt"}, {"name": "VJSS_Mobilesecurity", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Mobilesecurity skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Mobilesecurity.txt"}, {"name": "VJSS_Mutationtesting", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Mutationtesting skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Mutationtesting.txt"}, {"name": "VJSS_Nextjspro", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Nextjspro skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Nextjspro.txt"}, {"name": "VJSS_Nginxmaster", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Nginxmaster skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Nginxmaster.txt"}, {"name": "VJSS_NlpSpecialist", "category": "01_AI_ML_DataScience", "description": "Universal high-performance NlpSpecialist skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_NlpSpecialist.txt"}, {"name": "VJSS_Nodearchitect", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Nodearchitect skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Nodearchitect.txt"}, {"name": "VJSS_Notionarchitect", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Notionarchitect skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Notionarchitect.txt"}, {"name": "VJSS_Ollamalocalexpert", "category": "01_AI_ML_DataScience", "description": "Universal high-performance Ollamalocalexpert skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Ollamalocalexpert.txt"}, {"name": "VJSS_Optionschainanalyzer", "category": "05_Trading_Fintech_Strategy", "description": "Advanced options chain intelligence for NIFTY, BANKNIFTY, and FINNIFTY. Provides real-time strike suggestion, Greek analysis, and automated execution logic.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Optionschainanalyzer.txt"}, {"name": "VJSS_OwaspValidator", "category": "04_Security_Quality_Testing", "description": "Universal high-performance OwaspValidator skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_OwaspValidator.txt"}, {"name": "VJSS_Pandasdatawizard", "category": "01_AI_ML_DataScience", "description": "Universal high-performance Pandasdatawizard skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Pandasdatawizard.txt"}, {"name": "VJSS_Pentestbot", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Pentestbot skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Pentestbot.txt"}, {"name": "VJSS_Perfanalyzer", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Perfanalyzer skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Perfanalyzer.txt"}, {"name": "VJSS_Piiscanner", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Piiscanner skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Piiscanner.txt"}, {"name": "VJSS_Portfoliooptimizer", "category": "05_Trading_Fintech_Strategy", "description": "Universal high-performance Portfoliooptimizer skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Portfoliooptimizer.txt"}, {"name": "VJSS_Postgrespro", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Postgrespro skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Postgrespro.txt"}, {"name": "VJSS_Promptengineer", "category": "01_AI_ML_DataScience", "description": "Universal high-performance Promptengineer skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Promptengineer.txt"}, {"name": "VJSS_PwaBuilder", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance PwaBuilder skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_PwaBuilder.txt"}, {"name": "VJSS_Pythonfastapi", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Pythonfastapi skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Pythonfastapi.txt"}, {"name": "VJSS_Pytorchdev", "category": "01_AI_ML_DataScience", "description": "Universal high-performance Pytorchdev skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Pytorchdev.txt"}, {"name": "VJSS_QuantArchitect", "category": "05_Trading_Fintech_Strategy", "description": "Head of Quantitative Strategy & Alpha Labs. Use for algorithmic trading logic, strategy refactoring, backtesting analysis, and mathematical modeling for quantitative finance models and automated execution engines.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_QuantArchitect.txt"}, {"name": "VJSS_Ragarchitect", "category": "01_AI_ML_DataScience", "description": "Universal high-performance Ragarchitect skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Ragarchitect.txt"}, {"name": "VJSS_Reactexpert", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Reactexpert skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Reactexpert.txt"}, {"name": "VJSS_Reactnativeexpert", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Reactnativeexpert skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Reactnativeexpert.txt"}, {"name": "VJSS_Redisspecialist", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Redisspecialist skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Redisspecialist.txt"}, {"name": "VJSS_Regexmaster", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Regexmaster skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Regexmaster.txt"}, {"name": "VJSS_RiskAuditor", "category": "04_Security_Quality_Testing", "description": "Head of Quality Assurance & Risk Management. Use for capital protection auditing, code reviews, signal veto verification, and enforcing portfolio drawdown limits and risk management guardrails.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_RiskAuditor.txt"}, {"name": "VJSS_Riskmanagementbot", "category": "05_Trading_Fintech_Strategy", "description": "Universal high-performance Riskmanagementbot skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Riskmanagementbot.txt"}, {"name": "VJSS_Rustbackend", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Rustbackend skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Rustbackend.txt"}, {"name": "VJSS_Scikitlearnexpert", "category": "01_AI_ML_DataScience", "description": "Expert AI data science and machine learning engineer using scikit-learn. Token-optimized logic.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Scikitlearnexpert.txt"}, {"name": "VJSS_Securityguidance", "category": "04_Security_Quality_Testing", "description": "Proactive security guidance for Enterprise Engineering Applications. Use whenever editing or writing code to identify common security pitfalls like command injection, XSS, insecure deserialization, and credential leaks.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Securityguidance.txt"}, {"name": "VJSS_Serverlesswiz", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Serverlesswiz skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Serverlesswiz.txt"}, {"name": "VJSS_Shellexpert", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Shellexpert skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Shellexpert.txt"}, {"name": "VJSS_Slackbotbuilder", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Slackbotbuilder skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Slackbotbuilder.txt"}, {"name": "VJSS_Smartcontext", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Smartcontext skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Smartcontext.txt"}, {"name": "VJSS_StrategicOverseer", "category": "06_Universal_Orchestration_Operations", "description": "Head of Strategic Operations. Use for global mandate enforcement, ecosystem-wide architectural changes, and managing the standard Git commit and release lifecycle GitHub lifecycle.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_StrategicOverseer.txt"}, {"name": "VJSS_SuperVJBrain", "category": "06_Universal_Orchestration_Operations", "description": "The ultimate Master Orchestrator for the VJSuperSkills ecosystem. Features autonomous skill discovery, token-optimized planning, and a 30-second delayed startup heartbeat.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_SuperVJBrain.txt"}, {"name": "VJSS_Superadmin", "category": "06_Universal_Orchestration_Operations", "description": "Universal SysAdmin, automation, and project management. Use for task orchestration, health monitoring, environment setup, and general project administration.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superadmin.txt"}, {"name": "VJSS_Superarchitect", "category": "06_Universal_Orchestration_Operations", "description": "Global system design and codebase mapping. Use when starting new projects, refactoring legacy systems, or understanding complex cross-component dependencies in any AI agent environment.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superarchitect.txt"}, {"name": "VJSS_Superbuilder", "category": "06_Universal_Orchestration_Operations", "description": "Universal 7-phase feature development workflow. Ensures thorough discovery, architecture design, and quality-controlled implementation for any software feature.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superbuilder.txt"}, {"name": "VJSS_Superdata", "category": "01_AI_ML_DataScience", "description": "Universal data analysis, transformation, and insight generation. Use when working with CSV, JSON, SQL, or large datasets to normalize schemas or extract business intelligence.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superdata.txt"}, {"name": "VJSS_Superdebugger", "category": "06_Universal_Orchestration_Operations", "description": "Deep root cause analysis and issue resolution. Use when investigating bugs, crashes, or unintended behavior in any software system.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superdebugger.txt"}, {"name": "VJSS_Superdevops", "category": "02_Backend_Cloud_DevOps", "description": "Universal Git, CI/CD, and deployment automation. Use for branch management, conventional commits, and automated infrastructure workflows.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superdevops.txt"}, {"name": "VJSS_Superdocs", "category": "06_Universal_Orchestration_Operations", "description": "Universal technical writing and documentation. Use when creating API references, READMEs, architectural overviews, or project-specific SOPs.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superdocs.txt"}, {"name": "VJSS_Superfrontend", "category": "03_Frontend_Mobile_UI", "description": "Create distinctive, production-grade frontend interfaces. Use when building UI components, dashboards, or web applications with a focus on bold aesthetics and creative design.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superfrontend.txt"}, {"name": "VJSS_Superhealing", "category": "06_Universal_Orchestration_Operations", "description": "Autonomous error resolution engine. Automatically diagnoses failures, fetches documentation, and chains other skills to apply fixes without user intervention.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superhealing.txt"}, {"name": "VJSS_Superintelligent", "category": "01_AI_ML_DataScience", "description": "The ultimate auto-fixing, self-improving universal agent skill. Ensures all skills load perfectly into Gemini CLI and Claude Code. Never compromises existing features, always adds new ones, and guarantees 1000-line compliance.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superintelligent.txt"}, {"name": "VJSS_Superparallel", "category": "06_Universal_Orchestration_Operations", "description": "Multi-threaded execution engine for batch processing. Use this to run multiple shell commands or file analyses simultaneously across available CPU cores.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superparallel.txt"}, {"name": "VJSS_Superpower", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Superpower skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superpower.txt"}, {"name": "VJSS_Superpowersplugin", "category": "06_Universal_Orchestration_Operations", "description": "A structured workflow plugin that enforces explore -> plan -> code. Matches Anthropic's best-practice advice but automated. Contains 14 workflow and orchestration skills.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superpowersplugin.txt"}, {"name": "VJSS_Superreviewer", "category": "06_Universal_Orchestration_Operations", "description": "Professional-grade automated code review. Use to audit changes for bugs, security leaks, and architectural integrity. Focuses on high-signal feedback and automated validation.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superreviewer.txt"}, {"name": "VJSS_Supersecurity", "category": "04_Security_Quality_Testing", "description": "Global security auditing and threat modeling. Use to identify vulnerabilities, harden systems, and ensure PII/SPI protection across any project.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Supersecurity.txt"}, {"name": "VJSS_Tailwindmaster", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Tailwindmaster skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Tailwindmaster.txt"}, {"name": "VJSS_Taskautomator", "category": "06_Universal_Orchestration_Operations", "description": "Universal high-performance Taskautomator skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Taskautomator.txt"}, {"name": "VJSS_Taxoptimizer", "category": "05_Trading_Fintech_Strategy", "description": "Universal high-performance Taxoptimizer skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Taxoptimizer.txt"}, {"name": "VJSS_Tensorflowpro", "category": "01_AI_ML_DataScience", "description": "Universal high-performance Tensorflowpro skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Tensorflowpro.txt"}, {"name": "VJSS_Terraformexpert", "category": "02_Backend_Cloud_DevOps", "description": "Universal high-performance Terraformexpert skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Terraformexpert.txt"}, {"name": "VJSS_Threatmodeler", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Threatmodeler skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Threatmodeler.txt"}, {"name": "VJSS_Uiperfectionist", "category": "03_Frontend_Mobile_UI", "description": "Expert UI/UX auditing and cross-device testing. Use this skill to identify visual inconsistencies, broken layouts, accessibility issues, and interaction bugs in web applications.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Uiperfectionist.txt"}, {"name": "VJSS_Unittestjest", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Unittestjest skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Unittestjest.txt"}, {"name": "VJSS_Unitymobile", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Unitymobile skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Unitymobile.txt"}, {"name": "VJSS_UniversalCopilot", "category": "06_Universal_Orchestration_Operations", "description": "Master Personal AI Assistant & Skill Orchestrator. Analyzes & refines user intent, dynamically routes 130+ VJSS skills, minimizes token consumption, remembers conversational history, provides proactive recommendations, and guides setup across all AI tools.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_UniversalCopilot.txt"}, {"name": "VJSS_VectorDbAdmin", "category": "01_AI_ML_DataScience", "description": "Universal high-performance VectorDbAdmin skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_VectorDbAdmin.txt"}, {"name": "VJSS_Visualregression", "category": "04_Security_Quality_Testing", "description": "Universal high-performance Visualregression skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Visualregression.txt"}, {"name": "VJSS_Vuespecialist", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance Vuespecialist skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Vuespecialist.txt"}, {"name": "VJSS_WealthUiEngineer", "category": "03_Frontend_Mobile_UI", "description": "Head of Wealth Executive UI & Client Portals. Use for Telegram bot message formatting, Enterprise Engineering Applications frontend (HTML/CSS/JS) development, and responsive UI/UX perfection.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_WealthUiEngineer.txt"}, {"name": "VJSS_WebglWizard", "category": "03_Frontend_Mobile_UI", "description": "Universal high-performance WebglWizard skill for autonomous AI agents and pair-programming assistants.", "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_WebglWizard.txt"}];
+        const skillCache = {};
+        let activeCategory = 'all';
+        let currentModalText = '';
 
-        fetch('skills.json')
-            .then(r => r.json())
-            .then(data => {
-                allSkills = data;
-                renderSkills();
-            });
+        const searchInput = document.getElementById('skillSearch');
+        const tabsContainer = document.getElementById('categoryTabs');
+        const gridContainer = document.getElementById('skillsGridContainer');
+        const previewModal = document.getElementById('previewModal');
 
-        const searchInput = document.getElementById('searchInput');
-        const filterContainer = document.getElementById('filterContainer');
-        const skillsGrid = document.getElementById('skillsGrid');
-
-        searchInput.addEventListener('input', () => renderSkills());
-
-        filterContainer.addEventListener('click', (e) => {
-            if (e.target.classList.contains('filter-btn')) {
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
-                currentCat = e.target.getAttribute('data-cat');
-                renderSkills();
-            }
-        });
-
-        function renderSkills() {
+        function render() {
             const query = searchInput.value.toLowerCase().trim();
-            const filtered = allSkills.filter(s => {
-                const matchCat = currentCat === 'all' || s.category === currentCat;
+            const filtered = skillsDatabase.filter(s => {
+                const matchCat = activeCategory === 'all' || s.category === activeCategory;
                 const matchQuery = s.name.toLowerCase().includes(query) || s.description.toLowerCase().includes(query);
                 return matchCat && matchQuery;
             });
 
-            skillsGrid.innerHTML = filtered.map(s => `
-                <div class="skill-card">
+            gridContainer.innerHTML = filtered.map(s => `
+                <div class="glass-card rounded-2xl p-6 flex flex-col justify-between h-full">
                     <div>
-                        <div class="skill-cat">${s.category.replace(/^[0-9]+_/, '').replace(/_/g, ' ')}</div>
-                        <div class="skill-name">${s.name}</div>
-                        <div class="skill-desc">${s.description}</div>
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="text-[9px] font-bold font-code uppercase tracking-wider text-purple-400 bg-purple-950/60 px-2 py-0.5 rounded border border-purple-500/20">
+                                ${s.category.replace(/^[0-9]+_/, '').replace(/_/g, ' ')}
+                            </span>
+                        </div>
+                        <h3 class="text-base font-bold font-code text-cyan-300 mb-2">${s.name}</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed font-body mb-5">${s.description}</p>
                     </div>
-                    <div class="card-actions">
-                        <button class="btn btn-copy" onclick="copyPrompt('${s.raw_url}', this)">📋 Copy Skill</button>
-                        <a class="btn btn-view" href="${s.raw_url}" target="_blank">View Raw</a>
+                    <div class="flex gap-2 pt-3 border-t border-white/5">
+                        <button onclick="copySkillFile('${s.raw_url}', this)" class="flex-1 py-2 bg-cyan-500/10 hover:bg-cyan-500 hover:text-black border border-cyan-500/30 text-cyan-300 rounded-lg text-xs font-bold font-code transition-all">
+                            📋 Copy
+                        </button>
+                        <button onclick="openSkillPreview('${s.name}', '${s.category}', '${s.raw_url}')" class="px-4 py-2 bg-white/5 hover:bg-cyan-500/20 hover:text-cyan-300 hover:border-cyan-500/40 border border-white/10 text-gray-300 rounded-lg text-xs font-code transition-all flex items-center gap-1.5">
+                            <i class="fas fa-eye text-[10px]"></i> View
+                        </button>
                     </div>
                 </div>
             `).join('');
         }
 
-        async function copyPrompt(url, btn) {
+        async function openSkillPreview(name, category, rawUrl) {
+            document.getElementById('modalTitle').innerText = name;
+            document.getElementById('modalCategory').innerText = category.replace(/^[0-9]+_/, '').replace(/_/g, ' ');
+            document.getElementById('modalRawLink').href = rawUrl;
+            document.getElementById('modalContent').innerText = "⚡ Loading protocol at light speed...";
+            
+            previewModal.classList.remove('modal-inactive');
+            previewModal.classList.add('modal-active');
+            document.body.style.overflow = 'hidden';
+
+            if (skillCache[rawUrl]) {
+                currentModalText = skillCache[rawUrl];
+                document.getElementById('modalContent').innerText = currentModalText;
+            } else {
+                try {
+                    const res = await fetch(rawUrl);
+                    const text = await res.text();
+                    skillCache[rawUrl] = text;
+                    currentModalText = text;
+                    document.getElementById('modalContent').innerText = text;
+                } catch(e) {
+                    document.getElementById('modalContent').innerText = "Error loading remote protocol. Click 'GitHub Raw' above to view.";
+                }
+            }
+        }
+
+        function closeModal() {
+            previewModal.classList.remove('modal-active');
+            previewModal.classList.add('modal-inactive');
+            document.body.style.overflow = 'auto';
+        }
+
+        previewModal.addEventListener('click', (e) => {
+            if (e.target === previewModal) closeModal();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        function copyModalSkill(btn) {
+            if (!currentModalText) return;
+            navigator.clipboard.writeText(currentModalText).then(() => {
+                const orig = btn.innerText;
+                btn.innerText = '✓ Copied!';
+                setTimeout(() => btn.innerText = orig, 2000);
+            });
+        }
+
+        async function copySkillFile(url, btn) {
             try {
-                const res = await fetch(url);
-                const text = await res.text();
+                let text = skillCache[url];
+                if (!text) {
+                    const res = await fetch(url);
+                    text = await res.text();
+                    skillCache[url] = text;
+                }
                 await navigator.clipboard.writeText(text);
                 const orig = btn.innerText;
                 btn.innerText = '✓ Copied!';
                 setTimeout(() => btn.innerText = orig, 2000);
-            } catch (e) {
+            } catch(e) {
                 window.open(url, '_blank');
             }
         }
+
+        function copyCommand(cmd, btn) {
+            navigator.clipboard.writeText(cmd).then(() => {
+                const orig = btn.innerText;
+                btn.innerText = '✓ Copied!';
+                setTimeout(() => btn.innerText = orig, 2000);
+            });
+        }
+
+        searchInput.addEventListener('input', render);
+
+        tabsContainer.addEventListener('click', (e) => {
+            if (e.target.classList.contains('cat-tab')) {
+                document.querySelectorAll('.cat-tab').forEach(t => {
+                    t.classList.remove('bg-purple-600', 'text-white', 'border-purple-500');
+                    t.classList.add('bg-gray-900/60', 'text-gray-400', 'border-white/10');
+                });
+                e.target.classList.remove('bg-gray-900/60', 'text-gray-400', 'border-white/10');
+                e.target.classList.add('bg-purple-600', 'text-white', 'border-purple-500');
+                activeCategory = e.target.getAttribute('data-cat');
+                render();
+            }
+        });
+
+        render();
     </script>
 </body>
 </html>
