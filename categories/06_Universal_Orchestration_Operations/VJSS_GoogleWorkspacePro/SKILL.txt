@@ -1,9 +1,13 @@
 ================================================================================
-SKILL PROTOCOL: VJSS_GoogleWorkspacePro
-AUTHOR: Vishal Joshi <vishaljoshi9694@gmail.com>
-CATEGORY: 06_Universal_Orchestration_Operations
-DESCRIPTION: Universal high-performance GoogleWorkspacePro skill for autonomous AI agents and pair-programming assistants.
-COMPATIBILITY: Universal (Claude Code, Antigravity CLI, Gemini CLI, Cursor, Windsurf, Roo/Cline, VS Code)
+SKILL PROTOCOL : VJSS_GoogleWorkspacePro
+CREATOR & LEAD : Mr. Vishalkumar Joshi
+EMAIL          : mrvishaljjoshi@gmail.com
+WEBSITE        : https://vjprojects.co.in
+GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
+REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
+CATEGORY       : 06_Universal_Orchestration_Operations
+DESCRIPTION    : Universal high-performance GoogleWorkspacePro skill for autonomous AI agents and pair-programming assistants.
+COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================
 
 # GOOGLE-WORKSPACE-PRO Expert Protocol

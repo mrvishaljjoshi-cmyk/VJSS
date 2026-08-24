@@ -1,9 +1,13 @@
 ================================================================================
-SKILL PROTOCOL: VJSS_Dividendtracker
-AUTHOR: Vishal Joshi <vishaljoshi9694@gmail.com>
-CATEGORY: 05_Trading_Fintech_Strategy
-DESCRIPTION: Universal high-performance Dividendtracker skill for autonomous AI agents and pair-programming assistants.
-COMPATIBILITY: Universal (Claude Code, Antigravity CLI, Gemini CLI, Cursor, Windsurf, Roo/Cline, VS Code)
+SKILL PROTOCOL : VJSS_Dividendtracker
+CREATOR & LEAD : Mr. Vishalkumar Joshi
+EMAIL          : mrvishaljjoshi@gmail.com
+WEBSITE        : https://vjprojects.co.in
+GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
+REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
+CATEGORY       : 05_Trading_Fintech_Strategy
+DESCRIPTION    : Universal high-performance Dividendtracker skill for autonomous AI agents and pair-programming assistants.
+COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================
 
 # DIVIDEND-TRACKER Expert Protocol

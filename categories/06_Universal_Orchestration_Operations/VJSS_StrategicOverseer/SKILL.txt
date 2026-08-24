@@ -1,9 +1,13 @@
 ================================================================================
-SKILL PROTOCOL: VJSS_StrategicOverseer
-AUTHOR: Vishal Joshi <vishaljoshi9694@gmail.com>
-CATEGORY: 06_Universal_Orchestration_Operations
-DESCRIPTION: Head of Strategic Operations. Use for global mandate enforcement, ecosystem-wide architectural changes, and managing the ARCHIVE -> COMMIT -> PUSH GitHub lifecycle.
-COMPATIBILITY: Universal (Claude Code, Antigravity CLI, Gemini CLI, Cursor, Windsurf, Roo/Cline, VS Code)
+SKILL PROTOCOL : VJSS_StrategicOverseer
+CREATOR & LEAD : Mr. Vishalkumar Joshi
+EMAIL          : mrvishaljjoshi@gmail.com
+WEBSITE        : https://vjprojects.co.in
+GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
+REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
+CATEGORY       : 06_Universal_Orchestration_Operations
+DESCRIPTION    : Head of Strategic Operations. Use for global mandate enforcement, ecosystem-wide architectural changes, and managing the ARCHIVE -> COMMIT -> PUSH GitHub lifecycle.
+COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================
 
 # 🦅 STRATEGIC-OVERSEER: Strategic Operations

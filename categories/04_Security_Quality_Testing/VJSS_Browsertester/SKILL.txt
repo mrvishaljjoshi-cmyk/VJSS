@@ -1,9 +1,13 @@
 ================================================================================
-SKILL PROTOCOL: VJSS_Browsertester
-AUTHOR: Vishal Joshi <vishaljoshi9694@gmail.com>
-CATEGORY: 04_Security_Quality_Testing
-DESCRIPTION: Advanced headless browser testing and UI/UX validation engine. Capable of simulating user behavior, checking for visual regressions, and auditing DOM integrity.
-COMPATIBILITY: Universal (Claude Code, Antigravity CLI, Gemini CLI, Cursor, Windsurf, Roo/Cline, VS Code)
+SKILL PROTOCOL : VJSS_Browsertester
+CREATOR & LEAD : Mr. Vishalkumar Joshi
+EMAIL          : mrvishaljjoshi@gmail.com
+WEBSITE        : https://vjprojects.co.in
+GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
+REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
+CATEGORY       : 04_Security_Quality_Testing
+DESCRIPTION    : Advanced headless browser testing and UI/UX validation engine. Capable of simulating user behavior, checking for visual regressions, and auditing DOM integrity.
+COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================
 
 # BROWSER-TESTER: THE UNIVERSAL UI VALIDATION PROTOCOL

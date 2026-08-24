@@ -1,12 +1,14 @@
 @echo off
 REM ==============================================================================
 REM VJSS: Universal AI Agent Super-Skills Ecosystem Windows Installer
-REM Author: Vishal Joshi <vishaljoshi9694@gmail.com>
+REM Creator: Mr. Vishalkumar Joshi
+REM Email: mrvishaljjoshi@gmail.com | Website: https://vjprojects.co.in | GitHub: https://github.com/mrvishaljjoshi-cmyk
 REM ==============================================================================
 
 echo ===============================================================================
 echo       VJSS: UNIVERSAL AI AGENT SUPER-SKILLS INSTALLER (Windows)
-echo              Author: Vishal Joshi (vishaljoshi9694@gmail.com)
+echo              Creator: Mr. Vishalkumar Joshi
+echo        Website: https://vjprojects.co.in ^| Email: mrvishaljjoshi@gmail.com
 echo                    130 Plain-Text Engineering Protocols
 echo ===============================================================================
 echo.

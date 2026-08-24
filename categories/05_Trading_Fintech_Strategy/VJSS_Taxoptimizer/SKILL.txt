@@ -1,9 +1,13 @@
 ================================================================================
-SKILL PROTOCOL: VJSS_Taxoptimizer
-AUTHOR: Vishal Joshi <vishaljoshi9694@gmail.com>
-CATEGORY: 05_Trading_Fintech_Strategy
-DESCRIPTION: Universal high-performance Taxoptimizer skill for autonomous AI agents and pair-programming assistants.
-COMPATIBILITY: Universal (Claude Code, Antigravity CLI, Gemini CLI, Cursor, Windsurf, Roo/Cline, VS Code)
+SKILL PROTOCOL : VJSS_Taxoptimizer
+CREATOR & LEAD : Mr. Vishalkumar Joshi
+EMAIL          : mrvishaljjoshi@gmail.com
+WEBSITE        : https://vjprojects.co.in
+GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
+REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
+CATEGORY       : 05_Trading_Fintech_Strategy
+DESCRIPTION    : Universal high-performance Taxoptimizer skill for autonomous AI agents and pair-programming assistants.
+COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================
 
 # TAX-OPTIMIZER Expert Protocol

@@ -1,12 +1,14 @@
 # 🧠 VJSS: Universal AI Agent Super-Skills Ecosystem
 
+[![Creator: Mr. Vishalkumar Joshi](https://img.shields.io/badge/Creator-Mr.%20Vishalkumar%20Joshi-blue.svg)](https://github.com/mrvishaljjoshi-cmyk)
+[![Website: vjprojects.co.in](https://img.shields.io/badge/Website-vjprojects.co.in-purple.svg)](https://vjprojects.co.in)
+[![Email: mrvishaljjoshi@gmail.com](https://img.shields.io/badge/Email-mrvishaljjoshi%40gmail.com-orange.svg)](mailto:mrvishaljjoshi@gmail.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills: 130 Total](https://img.shields.io/badge/Skills-130%20Total-blue.svg)](INDEX.md)
-[![Format: Pure Plain--Text](https://img.shields.io/badge/Format-Pure%20Plain--Text%20(.txt)-brightgreen.svg)](txt_skills/)
-[![Gateway: UniversalCopilot](https://img.shields.io/badge/Gateway-VJSS__UniversalCopilot-purple.svg)](txt_skills/VJSS_UniversalCopilot.txt)
-[![Author: Vishal Joshi](https://img.shields.io/badge/Author-Vishal%20Joshi-orange.svg)](mailto:vishaljoshi9694@gmail.com)
+[![Skills: 130 Total](https://img.shields.io/badge/Skills-130%20Total-brightgreen.svg)](INDEX.md)
+[![Format: Pure Plain--Text](https://img.shields.io/badge/Format-Pure%20Plain--Text%20(.txt)-blueviolet.svg)](txt_skills/)
+[![Gateway: UniversalCopilot](https://img.shields.io/badge/Gateway-VJSS__UniversalCopilot-red.svg)](txt_skills/VJSS_UniversalCopilot.txt)
 
-**VJSS (Vishal Joshi Super-Skills)** is the ultimate production-grade collection of **130 specialized AI engineering protocols and prompt skills**. Built in **pure plain-text (`.txt`)**, it gives autonomous AI agents and pair-programming assistants superhuman capabilities across architecture, backend, frontend, cloud, security, and algorithmic fintech.
+**VJSS (Vishal Joshi Super-Skills)** is the ultimate production-grade collection of **130 specialized AI engineering protocols and prompt skills**, created and architected by **Mr. Vishalkumar Joshi**. Built in **pure plain-text (`.txt`)**, it gives autonomous AI agents and pair-programming assistants superhuman capabilities across architecture, backend, frontend, cloud, security, and algorithmic fintech.
 
 ---
 
@@ -71,35 +73,29 @@ Or install directly for your specific tool in 1 line:
 | **🟢 VS Code (Copilot/Roo/Cline)** | `./install.sh --vscode` | Generates `.github/copilot-instructions.md` |
 | **⭐ ALL TOOLS** | `./install.sh --all` | Configures all 5 coding tools in one go |
 
-*(Windows users: double-click or run `install.bat`)*
+*(Windows users: double-click `install.bat`)*
 
 ---
 
 ## 🛠️ Manual 1-Click Setup (Top 5 AI Coding Tools)
 
-If you prefer configuring manually without the script:
-
 ### 1. 🟣 Claude Code CLI (`claude` / `claude-code`)
 ```bash
-# Add Universal Copilot as permanent project memory
 cat txt_skills/VJSS_UniversalCopilot.txt >> CLAUDE.md
 ```
 
 ### 2. 🔵 Google Antigravity CLI (`agy` / Gemini CLI)
 ```bash
-# Sync all skills globally
 mkdir -p ~/.gemini/config/skills && cp -r categories/*/* ~/.gemini/config/skills/
 ```
 
 ### 3. 🟡 Cursor IDE (`.cursorrules`)
 ```bash
-# Set as master workspace rule
 cat txt_skills/VJSS_UniversalCopilot.txt > .cursorrules
 ```
 
 ### 4. 🌊 Windsurf IDE (Codeium Cascade)
 ```bash
-# Set as global workspace rules
 cat txt_skills/VJSS_UniversalCopilot.txt > .windsurfrules
 ```
 
@@ -292,15 +288,15 @@ VJSS/
 
 ---
 
-## 🛡️ Privacy & Zero-Leakage Guarantee
-All VJSS skills are 100% sanitized and anonymized against proprietary codebases, company credentials, private API tokens, and internal server IPs. They provide pure, reusable, enterprise-standard best practices.
+## 👤 Creator & Lead Architect
+
+| Field | Information |
+| :--- | :--- |
+| **Creator & Author** | **Mr. Vishalkumar Joshi** |
+| **Official Website** | [https://vjprojects.co.in](https://vjprojects.co.in) |
+| **GitHub Profile** | [@mrvishaljjoshi-cmyk](https://github.com/mrvishaljjoshi-cmyk) |
+| **Official Email** | [mrvishaljjoshi@gmail.com](mailto:mrvishaljjoshi@gmail.com) |
+| **Project Repository** | [https://github.com/mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) |
 
 ---
-
-## 👤 Author & Maintainer
-**Vishal Joshi**  
-Email: [vishaljoshi9694@gmail.com](mailto:vishaljoshi9694@gmail.com)  
-GitHub: [@mrvishaljjoshi-cmyk](https://github.com/mrvishaljjoshi-cmyk)
-
----
-*Built with ❤️ for autonomous AI agents and modern software developers.*
+*Created with ❤️ by **Mr. Vishalkumar Joshi** for autonomous AI agents and modern software developers worldwide.*

@@ -1,9 +1,13 @@
 ================================================================================
-SKILL PROTOCOL: VJSS_Gitworkflow
-AUTHOR: Vishal Joshi <vishaljoshi9694@gmail.com>
-CATEGORY: 06_Universal_Orchestration_Operations
-DESCRIPTION: Automated and structured Git workflow for EnterpriseAnalyticsEngine. Use to generate conventional commit messages, push changes, and create pull requests using the GitHub CLI (gh).
-COMPATIBILITY: Universal (Claude Code, Antigravity CLI, Gemini CLI, Cursor, Windsurf, Roo/Cline, VS Code)
+SKILL PROTOCOL : VJSS_Gitworkflow
+CREATOR & LEAD : Mr. Vishalkumar Joshi
+EMAIL          : mrvishaljjoshi@gmail.com
+WEBSITE        : https://vjprojects.co.in
+GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
+REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
+CATEGORY       : 06_Universal_Orchestration_Operations
+DESCRIPTION    : Automated and structured Git workflow for EnterpriseAnalyticsEngine. Use to generate conventional commit messages, push changes, and create pull requests using the GitHub CLI (gh).
+COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================
 
 # EnterpriseAnalyticsEngine Git Workflow

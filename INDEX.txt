@@ -1,9 +1,12 @@
 ================================================================================
 VJSS: UNIVERSAL AI AGENT SUPER-SKILLS ECOSYSTEM
-Author: Vishal Joshi <vishaljoshi9694@gmail.com>
-Repository: https://github.com/mrvishaljjoshi-cmyk/VJSS
-Total Skills: 130 (Pure Plain-Text .txt Format)
-Flagship Master Skill: txt_skills/VJSS_UniversalCopilot.txt
+Creator & Author : Mr. Vishalkumar Joshi
+Official Website : https://vjprojects.co.in
+Contact Email    : mrvishaljjoshi@gmail.com
+GitHub Profile   : https://github.com/mrvishaljjoshi-cmyk
+Repository       : https://github.com/mrvishaljjoshi-cmyk/VJSS
+Total Skills     : 130 (Pure Plain-Text .txt Format)
+Flagship Skill   : txt_skills/VJSS_UniversalCopilot.txt
 ================================================================================
 
 THE CORE PHILOSOPHY: "INSTALL 1st -> AUTO-CALL REST"

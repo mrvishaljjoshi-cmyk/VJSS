@@ -1,7 +1,8 @@
 #!/bin/sh
 # ==============================================================================
 # VJSS: Universal AI Agent Super-Skills Ecosystem Installer
-# Author: Vishal Joshi <vishaljoshi9694@gmail.com>
+# Creator: Mr. Vishalkumar Joshi
+# Email: mrvishaljjoshi@gmail.com | Website: https://vjprojects.co.in | GitHub: https://github.com/mrvishaljjoshi-cmyk
 # Repository: https://github.com/mrvishaljjoshi-cmyk/VJSS
 # ==============================================================================
 
@@ -22,7 +23,8 @@ show_banner() {
     echo "${CYAN}"
     echo "  ╔═══════════════════════════════════════════════════════════════╗"
     echo "  ║      🧠 VJSS: UNIVERSAL AI AGENT SUPER-SKILLS INSTALLER       ║"
-    echo "  ║        Author: Vishal Joshi <vishaljoshi9694@gmail.com>       ║"
+    echo "  ║        Creator: Mr. Vishalkumar Joshi                           ║"
+    echo "  ║  Website: https://vjprojects.co.in | Email: mrvishaljjoshi@gmail.com  ║"
     echo "  ║             130 Plain-Text Engineering Protocols              ║"
     echo "  ╚═══════════════════════════════════════════════════════════════╝"
     echo "${NC}"
@@ -77,35 +79,16 @@ install_all() {
     echo "${CYAN}Now simply talk to your AI agent naturally — VJSS_UniversalCopilot will auto-call any of the 130 domain skills on demand!${NC}"
 }
 
-# Check argument
 case "$1" in
-    --claude|-c)
-        show_banner
-        install_claude
-        ;;
-    --antigravity|--agy|-a)
-        show_banner
-        install_antigravity
-        ;;
-    --cursor|-cu)
-        show_banner
-        install_cursor
-        ;;
-    --windsurf|-w)
-        show_banner
-        install_windsurf
-        ;;
-    --vscode|-v)
-        show_banner
-        install_vscode
-        ;;
-    --all)
-        show_banner
-        install_all
-        ;;
+    --claude|-c) show_banner; install_claude ;;
+    --antigravity|--agy|-a) show_banner; install_antigravity ;;
+    --cursor|-cu) show_banner; install_cursor ;;
+    --windsurf|-w) show_banner; install_windsurf ;;
+    --vscode|-v) show_banner; install_vscode ;;
+    --all) show_banner; install_all ;;
     *)
         show_banner
-        echo "${BOLD}Select your target AI Coding Tool to install VJSS_UniversalCopilot:${NC}"
+        echo "${BOLD}Select target AI tool to install VJSS_UniversalCopilot:${NC}"
         echo "  1) Claude Code CLI (CLAUDE.md)"
         echo "  2) Google Antigravity CLI (~/.gemini/config/skills/)"
         echo "  3) Cursor IDE (.cursorrules & .cursor/rules/)"

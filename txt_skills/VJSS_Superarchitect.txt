@@ -1,9 +1,13 @@
 ================================================================================
-SKILL PROTOCOL: VJSS_Superarchitect
-AUTHOR: Vishal Joshi <vishaljoshi9694@gmail.com>
-CATEGORY: 06_Universal_Orchestration_Operations
-DESCRIPTION: Global system design and codebase mapping. Use when starting new projects, refactoring legacy systems, or understanding complex cross-component dependencies in any AI agent environment.
-COMPATIBILITY: Universal (Claude Code, Antigravity CLI, Gemini CLI, Cursor, Windsurf, Roo/Cline, VS Code)
+SKILL PROTOCOL : VJSS_Superarchitect
+CREATOR & LEAD : Mr. Vishalkumar Joshi
+EMAIL          : mrvishaljjoshi@gmail.com
+WEBSITE        : https://vjprojects.co.in
+GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
+REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
+CATEGORY       : 06_Universal_Orchestration_Operations
+DESCRIPTION    : Global system design and codebase mapping. Use when starting new projects, refactoring legacy systems, or understanding complex cross-component dependencies in any AI agent environment.
+COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================
 
 author: Vishal Joshi <vishaljoshi9694@gmail.com>

@@ -1,9 +1,13 @@
 ================================================================================
-SKILL PROTOCOL: VJSS_FintechDevops
-AUTHOR: Vishal Joshi <vishaljoshi9694@gmail.com>
-CATEGORY: 02_Backend_Cloud_DevOps
-DESCRIPTION: Head of Core Infrastructure & DBRE. Use for MariaDB/Redis management, Ubuntu Proot environment tuning, background service (PM2/Systemd) configuration, and network security.
-COMPATIBILITY: Universal (Claude Code, Antigravity CLI, Gemini CLI, Cursor, Windsurf, Roo/Cline, VS Code)
+SKILL PROTOCOL : VJSS_FintechDevops
+CREATOR & LEAD : Mr. Vishalkumar Joshi
+EMAIL          : mrvishaljjoshi@gmail.com
+WEBSITE        : https://vjprojects.co.in
+GITHUB PROFILE : https://github.com/mrvishaljjoshi-cmyk
+REPOSITORY     : https://github.com/mrvishaljjoshi-cmyk/VJSS
+CATEGORY       : 02_Backend_Cloud_DevOps
+DESCRIPTION    : Head of Core Infrastructure & DBRE. Use for MariaDB/Redis management, Ubuntu Proot environment tuning, background service (PM2/Systemd) configuration, and network security.
+COMPATIBILITY  : Universal (Claude Code, Antigravity CLI, Cursor, Windsurf, VS Code)
 ================================================================================
 
 # ⚙️ FINTECH-DEVOPS: Core Infrastructure & DBRE
