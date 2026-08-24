@@ -30,12 +30,22 @@ show_banner() {
     echo "${NC}"
 }
 
+show_startup_mandate() {
+    echo ""
+    echo "${YELLOW}${BOLD}⚡ MANDATORY STARTUP & TOKEN EFFICIENCY PROTOCOL CONFIGURED:${NC}"
+    echo "  1. Your AI assistant will now ALWAYS load VJSS_UniversalCopilot on conversation start."
+    echo "  2. Absolute Priority = Save Tokens (80/20 Rule) + Maximize Result Quality."
+    echo "  3. When domain tasks arrive, your AI will autonomously auto-load specialized skills!"
+    echo ""
+}
+
 install_claude() {
     echo "${BLUE}[1/5] Installing VJSS_UniversalCopilot for Claude Code (CLAUDE.md)...${NC}"
     mkdir -p .
     echo "" >> CLAUDE.md
     cat "${COPILOT_FILE}" >> CLAUDE.md
     echo "${GREEN}✓ Successfully appended VJSS_UniversalCopilot to ./CLAUDE.md${NC}"
+    show_startup_mandate
 }
 
 install_antigravity() {
@@ -44,6 +54,7 @@ install_antigravity() {
     mkdir -p "${TARGET_DIR}"
     cp -r "${REPO_DIR}/categories/"*/* "${TARGET_DIR}/" 2>/dev/null || true
     echo "${GREEN}✓ Successfully synced all 130 skills to ${TARGET_DIR}/${NC}"
+    show_startup_mandate
 }
 
 install_cursor() {
@@ -52,12 +63,14 @@ install_cursor() {
     mkdir -p .cursor/rules
     cp "${REPO_DIR}/txt_skills/"*.txt .cursor/rules/ 2>/dev/null || true
     echo "${GREEN}✓ Successfully created .cursorrules and .cursor/rules/${NC}"
+    show_startup_mandate
 }
 
 install_windsurf() {
     echo "${BLUE}[4/5] Installing VJSS_UniversalCopilot for Windsurf IDE (.windsurfrules)...${NC}"
     cat "${COPILOT_FILE}" > .windsurfrules
     echo "${GREEN}✓ Successfully created .windsurfrules${NC}"
+    show_startup_mandate
 }
 
 install_vscode() {
@@ -66,6 +79,7 @@ install_vscode() {
     cat "${COPILOT_FILE}" > .github/copilot-instructions.md
     echo "${GREEN}✓ Successfully created .github/copilot-instructions.md${NC}"
     echo "${YELLOW}ℹ For Roo-Code & Cline: Paste txt_skills/VJSS_UniversalCopilot.txt into Custom Instructions.${NC}"
+    show_startup_mandate
 }
 
 install_all() {

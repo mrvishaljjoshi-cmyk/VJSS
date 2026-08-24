@@ -9,11 +9,10 @@ Total Skills     : 130 (Pure Plain-Text .txt Format)
 Flagship Skill   : txt_skills/VJSS_UniversalCopilot.txt
 ================================================================================
 
-THE CORE PHILOSOPHY: "INSTALL 1st -> AUTO-CALL REST"
-1. You only need to install ONE skill: txt_skills/VJSS_UniversalCopilot.txt
-2. Once installed, your AI agent automatically identifies your domain task,
-   auto-loads the matching specialized skill from txt_skills/ in the background,
-   and executes with strict enterprise SOPs. ZERO manual copying of 130 files!
+⚡ MANDATORY STARTUP & TOKEN CONSERVATION MANDATE:
+1. Every AI assistant must ALWAYS load VJSS_UniversalCopilot on session start.
+2. Absolute Priority = Save Tokens (80/20 Rule: 80% value in 20% tokens).
+3. The AI agent autonomously auto-loads specialized domain skills as needed.
 
 1-COMMAND INSTALLATION:
   ./install.sh --claude       (Configures CLAUDE.md)

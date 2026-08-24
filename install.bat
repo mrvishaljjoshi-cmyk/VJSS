@@ -49,4 +49,11 @@ if "%choice%"=="5" (
     type txt_skills\VJSS_UniversalCopilot.txt > .github\copilot-instructions.md
     echo [OK] All tools configured!
 )
+echo.
+echo -------------------------------------------------------------------------------
+echo [MANDATE ACTIVE] Your AI assistant is now set to:
+echo  1. Always load VJSS_UniversalCopilot on session start.
+echo  2. Prioritize saving tokens (80/20 rule) and delivering superior code.
+echo  3. Auto-load specialized domain skills on demand.
+echo -------------------------------------------------------------------------------
 pause

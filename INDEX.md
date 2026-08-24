@@ -15,8 +15,10 @@
 ## ⚡ THE CORE PHILOSOPHY: "INSTALL 1st → AUTO-CALL REST"
 
 > [!IMPORTANT]
-> **You only need to install ONE skill: [`VJSS_UniversalCopilot`](txt_skills/VJSS_UniversalCopilot.txt).**  
-> Once installed, your AI agent automatically decodes your intent, determines which specialized domain skill is needed (e.g. FastAPI, Docker, React, K8s, OWASP, ATR Backtesting), **auto-fetches that skill in the background**, and executes the task according to strict enterprise SOPs. **Zero manual copying of 130 files!**
+> **MANDATORY STARTUP & TOKEN EFFICIENCY PROTOCOL:**
+> 1. **Always Load On Session Start:** Every AI agent must initialize [`VJSS_UniversalCopilot`](txt_skills/VJSS_UniversalCopilot.txt) on turn 1 of every conversation.
+> 2. **Absolute Priority = Save Tokens:** Enforce the 80/20 rule (80% value in 20% tokens), targeted line-reads, and log truncation to keep context fast and cheap.
+> 3. **Auto-Call Specialized Skills:** When a domain task is encountered (FastAPI, Docker, React, K8s, OWASP, ATR Backtesting), the AI agent **autonomously loads that matching skill in the background**. **Zero manual copying of 130 files!**
 
 ```
                      USER PROMPT (Natural language, brief, or typos)
