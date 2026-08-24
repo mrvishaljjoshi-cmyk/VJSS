@@ -7,8 +7,11 @@
 [![Skills: 130 Total](https://img.shields.io/badge/Skills-130%20Total-brightgreen.svg)](INDEX.md)
 [![Format: Pure Plain--Text](https://img.shields.io/badge/Format-Pure%20Plain--Text%20(.txt)-blueviolet.svg)](txt_skills/)
 [![Gateway: UniversalCopilot](https://img.shields.io/badge/Gateway-VJSS__UniversalCopilot-red.svg)](txt_skills/VJSS_UniversalCopilot.txt)
+[![GitHub Stars](https://img.shields.io/github/stars/mrvishaljjoshi-cmyk/VJSS?style=social)](https://github.com/mrvishaljjoshi-cmyk/VJSS)
 
 **VJSS (Vishal Joshi Super-Skills)** is the ultimate production-grade collection of **130 specialized AI engineering protocols and prompt skills**, created and architected by **Mr. Vishalkumar Joshi**. Built in **pure plain-text (`.txt`)**, it gives autonomous AI agents and pair-programming assistants superhuman capabilities across architecture, backend, frontend, cloud, security, and algorithmic fintech.
+
+> ⭐ **If you find VJSS useful, please give it a star on GitHub — it helps the project grow and empowers developers worldwide!**
 
 ---
 
