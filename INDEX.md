@@ -7,8 +7,11 @@
 [![Skills: 130 Total](https://img.shields.io/badge/Skills-130%20Total-brightgreen.svg)](INDEX.md)
 [![Format: Pure Plain--Text](https://img.shields.io/badge/Format-Pure%20Plain--Text%20(.txt)-blueviolet.svg)](txt_skills/)
 [![Gateway: UniversalCopilot](https://img.shields.io/badge/Gateway-VJSS__UniversalCopilot-red.svg)](txt_skills/VJSS_UniversalCopilot.txt)
+[![GitHub Stars](https://img.shields.io/github/stars/mrvishaljjoshi-cmyk/VJSS?style=social)](https://github.com/mrvishaljjoshi-cmyk/VJSS)
 
 **VJSS (Vishal Joshi Super-Skills)** is the ultimate production-grade collection of **130 specialized AI engineering protocols and prompt skills**, created and architected by **Mr. Vishalkumar Joshi**. Built in **pure plain-text (`.txt`)**, it gives autonomous AI agents and pair-programming assistants superhuman capabilities across architecture, backend, frontend, cloud, security, and algorithmic fintech.
+
+> ⭐ **If you find VJSS useful, please give it a star on GitHub — it helps the project grow and empowers developers worldwide!**
 
 ---
 
@@ -299,6 +302,21 @@ VJSS/
 | **GitHub Profile** | [@mrvishaljjoshi-cmyk](https://github.com/mrvishaljjoshi-cmyk) |
 | **Official Email** | [mrvishaljjoshi@gmail.com](mailto:mrvishaljjoshi@gmail.com) |
 | **Project Repository** | [https://github.com/mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) |
+
+---
+
+## 🏷️ Viral AI Topics & Search Keywords
+
+`#AIAgents` `#ClaudeCode` `#CursorRules` `#WindsurfRules` `#PromptEngineering` `#AICoding` `#AutonomousAgents` `#LLM` `#CursorAI` `#DevTools` `#AwesomePrompts` `#Antigravity` `#VJSS` `#PairProgramming` `#AgenticWorkflow` `#GitHubCopilot` `#RooCode` `#Cline` `#FastAPI` `#Docker` `#Kubernetes` `#React` `#NextJS` `#Fintech` `#AlgoTrading` `#CyberSecurity` `#OWASP` `#VishalkumarJoshi` `#VJProjects`
+
+**Search Index:** AI Agent Skills, Claude Code Prompts, Cursor IDE System Rules, Windsurf Cascade Rules, Roo Code Custom Instructions, Cline Agent Protocols, Antigravity CLI Skills, Gemini CLI Prompts, Enterprise Python FastAPI Architecture, Zero-Bill Cloud Architecture, Dynamic ATR Rally-Riding Strategy, Full-Stack AI Developer Skills, Best AI Prompt Library 2026.
+
+---
+
+### 🌟 Enjoying VJSS? Support the Project!
+If this ecosystem helped you build faster with zero errors, please support the creator **Mr. Vishalkumar Joshi**:
+👉 **[⭐ Star VJSS on GitHub](https://github.com/mrvishaljjoshi-cmyk/VJSS)** — *Help more developers discover universal agent skills!*  
+🌐 **[Visit Official Website (vjprojects.co.in)](https://vjprojects.co.in)** | 💬 **[Leave a Review or Suggest a Skill](https://github.com/mrvishaljjoshi-cmyk/VJSS/discussions)**
 
 ---
 *Created with ❤️ by **Mr. Vishalkumar Joshi** for autonomous AI agents and modern software developers worldwide.*
