@@ -6,40 +6,24 @@ Total Skills: 130 (Pure Plain-Text .txt Format)
 Flagship Master Skill: txt_skills/VJSS_UniversalCopilot.txt
 ================================================================================
 
-OVERVIEW:
-VJSS is an enterprise-grade library of 130 specialized AI engineering protocols
-and prompt skills designed for autonomous AI agents, CLI tools, and IDEs.
+THE CORE PHILOSOPHY: "INSTALL 1st -> AUTO-CALL REST"
+1. You only need to install ONE skill: txt_skills/VJSS_UniversalCopilot.txt
+2. Once installed, your AI agent automatically identifies your domain task,
+   auto-loads the matching specialized skill from txt_skills/ in the background,
+   and executes with strict enterprise SOPs. ZERO manual copying of 130 files!
 
-SPOTLIGHT: VJSS_UniversalCopilot
-If you only install one skill, install VJSS_UniversalCopilot.txt. It contains complete
-knowledge of all 130 skills, prompt intent optimization, token conservation rules,
-and setup guides across all major AI tools.
-
-TOP 5 AI CODING TOOLS INTEGRATION:
-
-1. CLAUDE CODE CLI (claude / claude-code):
-   • Single Prompt: claude "Apply ./txt_skills/VJSS_UniversalCopilot.txt to optimize this repo"
-   • Memory (CLAUDE.md): cat txt_skills/VJSS_UniversalCopilot.txt >> CLAUDE.md
-
-2. GOOGLE ANTIGRAVITY CLI (agy):
-   • Global Sync: cp -r categories/*/* ~/.gemini/config/skills/
-   • Direct Mention: agy "Using ./txt_skills/VJSS_UniversalCopilot.txt, audit my codebase"
-
-3. CURSOR IDE (.cursorrules):
-   • Workspace Rules: cat txt_skills/VJSS_UniversalCopilot.txt > .cursorrules
-   • Modular Rules: cp txt_skills/*.txt .cursor/rules/
-
-4. WINDSURF IDE (Codeium Cascade):
-   • Global Rules: cat txt_skills/VJSS_UniversalCopilot.txt > .windsurfrules
-   • Cascade Mention: @txt_skills/VJSS_DockerMaster.txt dockerize this project
-
-5. VS CODE (Copilot, Roo-Code, Cline):
-   • Roo/Cline: Paste VJSS_UniversalCopilot.txt into Custom Instructions
-   • Copilot: cat txt_skills/VJSS_UniversalCopilot.txt > .github/copilot-instructions.md
+1-COMMAND INSTALLATION:
+  ./install.sh --claude       (Configures CLAUDE.md)
+  ./install.sh --cursor       (Configures .cursorrules)
+  ./install.sh --windsurf     (Configures .windsurfrules)
+  ./install.sh --agy          (Configures ~/.gemini/config/skills/)
+  ./install.sh --vscode       (Configures .github/copilot-instructions.md)
+  ./install.sh --all          (Configures all 5 tools)
 
 DIRECTORY STRUCTURE:
-• categories/   - 6 domain categories containing SKILL.txt
-• txt_skills/   - Flat directory of all 130 .txt files for instant attachment
-• INDEX.md / INDEX.txt - Complete skill catalog
-• README.md / README.txt - Documentation and quick-start guide
+• install.sh / install.bat - 1-Click automated installer
+• txt_skills/              - Flat library of all 130 .txt skills
+• categories/              - 6 domain categories containing SKILL.txt
+• INDEX.md / INDEX.txt     - Full skills catalog
+• README.md / README.txt   - Documentation and quick-start guide
 ================================================================================
