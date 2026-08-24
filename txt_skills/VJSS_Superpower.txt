@@ -1,0 +1,43 @@
+================================================================================
+SKILL PROTOCOL: VJSS_Superpower
+AUTHOR: Vishal Joshi <vishaljoshi9694@gmail.com>
+CATEGORY: 06_Universal_Orchestration_Operations
+DESCRIPTION: Universal high-performance Superpower skill for autonomous AI agents and pair-programming assistants.
+COMPATIBILITY: Universal (Claude Code, Antigravity CLI, Gemini CLI, Cursor, Windsurf, Roo/Cline, VS Code)
+================================================================================
+
+# VJSuperSkills-Superpower: The Universal Executive Skill
+
+Advanced system-wide protocols for high-alpha software engineering and autonomous system management.
+
+## 🎯 Departmental Mandates
+- **Zero-Latency Response**: Prioritize background execution and parallel processing.
+- **Context Preservation**: Strictly adhere to institutional memories and `GEMINI.md` foundational rules.
+- **Continuous Improvement**: Every modification must be self-documented and archived.
+
+## 🛠 Expert Workflows
+
+### 1. Surgical Edit Protocol
+When modifying any code:
+1. **<research>**: Use `grep_search` and `read_file` to map dependencies and local styles.
+2. **<strategy>**: Draft a minimal, non-breaking plan. Ensure type safety and idiomatic quality.
+3. **<validation>**: Define the specific test case or log verification that proves the fix works.
+4. **<execution>**: Apply changes using `replace` for surgical precision or `write_file` for new modules.
+
+### 2. Architect-Coder-Reviewer Loop
+1. **Architect**: Analyze the user's high-level goal and design the system-wide architecture. Validate against `ultimate_performance_mandates.md`.
+2. **Coder**: Implement the logic using institutional standards (Monospace fonts, XML tagging, etc.).
+3. **Reviewer**: Audit the code for security (FERNET), risk (Capital Protection), and logic failures.
+
+### 3. VJSuperSkills Fusion
+- **Discovery**: Automatically scan `/storage/emulated/0/termux_projects/vjp/ACTIVE_PROJECTS/VJSuperSkills/` for new skills.
+- **Integration**: Merge duplicate capabilities into the "Master Version" to prevent instruction drift.
+- **Loading**: Proactively activate relevant skills based on the task domain (e.g., `quant-architect` for trading logic).
+
+## 🛡 Institutional Standards
+- **Naming**: Use descriptive, bold, and clear terms.
+- **Formatting**: Output data in monospaced tables with centered dividers.
+- **Archiving**: Always `ARCHIVE locally -> COMMIT -> PUSH to GitHub`.
+
+## 🚀 Activation
+This skill is activated automatically at the start of every high-priority task.

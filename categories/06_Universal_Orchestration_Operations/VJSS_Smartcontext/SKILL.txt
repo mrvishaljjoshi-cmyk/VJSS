@@ -1,0 +1,39 @@
+================================================================================
+SKILL PROTOCOL: VJSS_Smartcontext
+AUTHOR: Vishal Joshi <vishaljoshi9694@gmail.com>
+CATEGORY: 06_Universal_Orchestration_Operations
+DESCRIPTION: Universal high-performance Smartcontext skill for autonomous AI agents and pair-programming assistants.
+COMPATIBILITY: Universal (Claude Code, Antigravity CLI, Gemini CLI, Cursor, Windsurf, Roo/Cline, VS Code)
+================================================================================
+
+# VJSuperSkills-SmartContext: Autonomous Guide & Memory Management
+
+Universal system for real-time documentation and project intelligence synchronization.
+
+## 🎯 Departmental Mandates
+- **Live Documentation**: Every file modification must trigger a corresponding update in the project's `GUIDE.md`.
+- **Archive First**: Never modify a file without first creating a timestamped backup in `/vjp/ARCHIVE/`.
+- **Context Compression**: Maintain a lean context window by summarizing large directories into architectural maps.
+
+## 🛠 Expert Workflows
+
+### 1. Autonomous Guide Update (AGU)
+Whenever a `replace` or `write_file` operation is successful:
+1. **Analyze**: Identify the impact of the change on the project's architecture, flow, or management.
+2. **Sync**: Update the `GUIDE.md` in the project root with the latest component list and workflow details.
+3. **Verify**: Ensure the "Last Updated" timestamp is current.
+
+### 2. Versioned Archiving
+1. **Pre-Flight**: Before `replace`, copy the target file to:
+   `/storage/emulated/0/termux_projects/vjp/ARCHIVE/YYYY-MM-DD_HH-mm_ProjectName_Filename`
+2. **Traceability**: Add a one-line comment in the modified file pointing to the archive location if necessary (for large refactors).
+
+### 3. Institutional Memory Sync
+- Proactively update `/data/data/com.termux/files/home/.gemini/tmp/termux-projects/memory/MEMORY.md` with new project roots and strategic intents.
+
+## 🛡 Institutional Standards
+- **Integrity**: Documentation must accurately reflect the code state. Hallucinated guides are a critical failure.
+- **Precision**: Use absolute paths for all critical storage and configuration locations.
+
+## 🚀 Initialization
+This skill is loaded at session start and runs in parallel with the `SuperVJBrain`.

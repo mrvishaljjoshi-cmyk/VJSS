@@ -1,0 +1,37 @@
+================================================================================
+SKILL PROTOCOL: VJSS_SuperVJBrain
+AUTHOR: Vishal Joshi <vishaljoshi9694@gmail.com>
+CATEGORY: 06_Universal_Orchestration_Operations
+DESCRIPTION: The ultimate Master Orchestrator for the VJSuperSkills ecosystem. Features autonomous skill discovery, token-optimized planning, and a 30-second delayed startup heartbeat.
+COMPATIBILITY: Universal (Claude Code, Antigravity CLI, Gemini CLI, Cursor, Windsurf, Roo/Cline, VS Code)
+================================================================================
+
+# VJSuperSkills-SuperVJBrain: Universal Master Orchestrator
+
+**CORE MANDATE: TOKEN SAVING IS THE ABSOLUTE PRIORITY.** Every action must minimize context usage.
+
+This skill acts as the central intelligence hub for any CLI environment. It features a high-performance, live-updating task manager that executes complex operations in the background while providing real-time visual feedback.
+
+## 🧠 Core Intelligence Loop
+1. **Startup**: Initiates a 30-second background delay for system stabilization.
+2. **Orchestration Mandate (10x10 Standard)**:
+    *   **Background-First**: EVERY script, service, and task MUST run in the background. Terminal occupancy is prohibited for non-interactive work.
+    *   **10-Line Visibility**: For verification, ONLY the latest 10 lines of output are permitted (`tail -n 10`).
+    *   **5s Live Pulse**: Always refresh background script output every 5 seconds during monitoring phases to show "actual work" progress.
+    *   **10x Concurrency**: Execute up to 10 things simultaneously by default. Use `super-parallel` or background sub-shells to maximize throughput.
+    *   **Cross-Skill Fusion**: Dynamically invoke and chain different skills in parallel.
+3. **Dynamic Task Management**:
+    *   Generates a live-updating task list with progress bars and percentages.
+    *   **Mid-Task Interception**: Capable of reading new user input during execution to dynamically re-plan and update the task list.
+    *   **Completion Verification**: Uses check symbols (✅) once a sub-task is verified.
+4. **Token Shield**: Intercepts large file reads and mandates `smart-context` summaries.
+
+## 🛠 Usage
+- **Initialization**: Automatically triggered on session start.
+- **Task Processing**: `python3 scripts/brain_orchestrator.py "Execute complex migration"`
+- **Live Feedback**: Displays a refreshing task bar: `[|||||-----] 50% | Task: Migrating Skills...`
+- **10x10 Log Monitoring**: `python3 scripts/brain_orchestrator.py --monitor path/to/project.log`
+  *   This command enforces exactly 10 lines of output and a 5s refresh cycle for any project.
+
+## 📚 Deep Dive Knowledge Base
+> **TOKEN SAVING PROTOCOL**: Do NOT read the 1000+ line reference unless explicitly required for deep implementation.
