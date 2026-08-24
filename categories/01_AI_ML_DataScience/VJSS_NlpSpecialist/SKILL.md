@@ -1018,5 +1018,7 @@ def assert_nlpspecialist_invariants(state: Dict[str, Any]) -> bool:
 
 ================================================================================
 END OF PROTOCOL: VJSS_NlpSpecialist | VJSS MASTER ECOSYSTEM v2.4.0
-Creator & Lead Architect: Mr. Vishalkumar Joshi | https://vjprojects.co.in | https://github.com/mrvishaljjoshi-cmyk
+Creator & Lead Architect: Mr. Vishalkumar Joshi | https://vjprojects.co.in
+GitHub Profile: https://github.com/mrvishaljjoshi-cmyk
+⭐ Support Creator: Star VJSS on GitHub -> https://github.com/mrvishaljjoshi-cmyk/VJSS
 ================================================================================
