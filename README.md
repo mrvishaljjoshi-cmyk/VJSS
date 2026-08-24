@@ -8,6 +8,7 @@
 [![Format: Pure Plain--Text](https://img.shields.io/badge/Format-Pure%20Plain--Text%20(.txt)-blueviolet.svg)](txt_skills/)
 [![Gateway: UniversalCopilot](https://img.shields.io/badge/Gateway-VJSS__UniversalCopilot-red.svg)](txt_skills/VJSS_UniversalCopilot.txt)
 [![Quality Benchmark](https://img.shields.io/badge/Quality%20Benchmark-100%2F100%20A%2B-brightgreen.svg)](tests/benchmark_suite.py)
+[![Web Catalog](https://img.shields.io/badge/Web%20Catalog-Interactive%20Explorer-purple.svg)](web/index.html)
 [![CI Quality Gate](https://github.com/mrvishaljjoshi-cmyk/VJSS/actions/workflows/benchmark.yml/badge.svg)](https://github.com/mrvishaljjoshi-cmyk/VJSS/actions)
 [![GitHub Stars](https://img.shields.io/github/stars/mrvishaljjoshi-cmyk/VJSS?style=social)](https://github.com/mrvishaljjoshi-cmyk/VJSS)
 
@@ -56,6 +57,10 @@
           ║  • ZERO manual skill hunting needed by the user!              ║
           ╚═══════════════════════════════════════════════════════════════╝
 ```
+
+<p align="center">
+  <img src="assets/terminal_demo.svg" alt="VJSS 1-Line Quick Installation Demo" width="100%">
+</p>
 
 ---
 

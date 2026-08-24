@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="100%">
+  <rect width="900" height="380" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <circle cx="28" cy="24" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="24" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="24" r="6" fill="#27c93f"/>
+  <text x="450" y="28" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" text-anchor="middle" font-weight="600">vjss — bash — 900x380</text>
+  <line x1="0" y1="44" x2="900" y2="44" stroke="#21262d" stroke-width="1"/>
+  
+  <text x="28" y="80" fill="#58a6ff" font-family="Fira Code, Consolas, Monaco, monospace" font-size="14" font-weight="600">user@cloud:~$</text>
+  <text x="145" y="80" fill="#f0f6fc" font-family="Fira Code, Consolas, Monaco, monospace" font-size="14">curl -fsSL https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/install.sh | bash -s -- --all</text>
+  
+  <text x="28" y="115" fill="#39d353" font-family="Fira Code, Consolas, Monaco, monospace" font-size="13">⚡ Fetching VJSS Super-Skills (130 Protocols by Mr. Vishalkumar Joshi)...</text>
+  <text x="28" y="145" fill="#58a6ff" font-family="Fira Code, Consolas, Monaco, monospace" font-size="13">[1/5] Installing VJSS_UniversalCopilot for Claude Code (CLAUDE.md)...</text>
+  <text x="28" y="170" fill="#39d353" font-family="Fira Code, Consolas, Monaco, monospace" font-size="13">✓ Successfully appended VJSS_UniversalCopilot to ./CLAUDE.md</text>
+  <text x="28" y="200" fill="#58a6ff" font-family="Fira Code, Consolas, Monaco, monospace" font-size="13">[2/5] Installing for Cursor IDE (.cursorrules &amp; .cursor/rules/)...</text>
+  <text x="28" y="225" fill="#39d353" font-family="Fira Code, Consolas, Monaco, monospace" font-size="13">✓ Successfully created .cursorrules and .cursor/rules/vjss_universal_copilot.mdc</text>
+  <text x="28" y="255" fill="#58a6ff" font-family="Fira Code, Consolas, Monaco, monospace" font-size="13">[3/5] Installing for Windsurf Cascade &amp; VS Code Copilot...</text>
+  <text x="28" y="280" fill="#39d353" font-family="Fira Code, Consolas, Monaco, monospace" font-size="13">✓ Configured .windsurfrules and .github/copilot-instructions.md</text>
+  
+  <rect x="28" y="310" width="844" height="40" rx="8" fill="#161b22" stroke="#238636" stroke-width="1"/>
+  <text x="45" y="335" fill="#39d353" font-family="Fira Code, Consolas, Monaco, monospace" font-size="13" font-weight="600">🎉 SUCCESS: 130 VJSS Skills Active! Dynamic Skill Dispatch &amp; 80/20 Token Shield Online.</text>
+</svg>

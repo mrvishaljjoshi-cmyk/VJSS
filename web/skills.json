@@ -1,0 +1,782 @@
+[
+  {
+    "name": "VJSS_A11yAuditor",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance A11yAuditor skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_A11yAuditor.txt"
+  },
+  {
+    "name": "VJSS_AiIntegrator",
+    "category": "01_AI_ML_DataScience",
+    "description": "Head of AI & LLM Engineering. Use for RAG (Retrieval-Augmented Generation) loops, vector database management, Ollama/Qwen2.5 integration, and AI signal validation logic.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_AiIntegrator.txt"
+  },
+  {
+    "name": "VJSS_Algobacktester",
+    "category": "05_Trading_Fintech_Strategy",
+    "description": "Universal high-performance Algobacktester skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Algobacktester.txt"
+  },
+  {
+    "name": "VJSS_Androidkotlin",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Androidkotlin skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Androidkotlin.txt"
+  },
+  {
+    "name": "VJSS_Angulararchitect",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Angulararchitect skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Angulararchitect.txt"
+  },
+  {
+    "name": "VJSS_Animationspecialist",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Animationspecialist skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Animationspecialist.txt"
+  },
+  {
+    "name": "VJSS_Ansibleexpert",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Ansibleexpert skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Ansibleexpert.txt"
+  },
+  {
+    "name": "VJSS_Apitester",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Apitester skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Apitester.txt"
+  },
+  {
+    "name": "VJSS_Asttransformer",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Asttransformer skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Asttransformer.txt"
+  },
+  {
+    "name": "VJSS_Authsystembuilder",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Authsystembuilder skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Authsystembuilder.txt"
+  },
+  {
+    "name": "VJSS_Awsarchitect",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Awsarchitect skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Awsarchitect.txt"
+  },
+  {
+    "name": "VJSS_Azurearchitect",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Azurearchitect skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Azurearchitect.txt"
+  },
+  {
+    "name": "VJSS_BrowserstackPro",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance BrowserstackPro skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_BrowserstackPro.txt"
+  },
+  {
+    "name": "VJSS_Browsertester",
+    "category": "04_Security_Quality_Testing",
+    "description": "Advanced headless browser testing and UI/UX validation engine. Capable of simulating user behavior, checking for visual regressions, and auditing DOM integrity.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Browsertester.txt"
+  },
+  {
+    "name": "VJSS_Calendaroptimizer",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Calendaroptimizer skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Calendaroptimizer.txt"
+  },
+  {
+    "name": "VJSS_Chaosmonkey",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Chaosmonkey skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Chaosmonkey.txt"
+  },
+  {
+    "name": "VJSS_CiCdPipelineBuilder",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance CiCdPipelineBuilder skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_CiCdPipelineBuilder.txt"
+  },
+  {
+    "name": "VJSS_Codereview",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "High-signal code review for Enterprise Engineering Applications. Use to audit pull requests or file changes for bugs, logic errors, and adherence to project conventions (project conventions and architecture guidelines). Focuses on correctness, security, and architectural integrity.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Codereview.txt"
+  },
+  {
+    "name": "VJSS_Compliancechecker",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Compliancechecker skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Compliancechecker.txt"
+  },
+  {
+    "name": "VJSS_CompressionWiz",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance CompressionWiz skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_CompressionWiz.txt"
+  },
+  {
+    "name": "VJSS_Coverageoptimizer",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Coverageoptimizer skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Coverageoptimizer.txt"
+  },
+  {
+    "name": "VJSS_Cryptoauditor",
+    "category": "05_Trading_Fintech_Strategy",
+    "description": "Universal high-performance Cryptoauditor skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Cryptoauditor.txt"
+  },
+  {
+    "name": "VJSS_Cryptotracker",
+    "category": "05_Trading_Fintech_Strategy",
+    "description": "Universal high-performance Cryptotracker skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Cryptotracker.txt"
+  },
+  {
+    "name": "VJSS_Cssgridpro",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Cssgridpro skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Cssgridpro.txt"
+  },
+  {
+    "name": "VJSS_D3visualizer",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance D3visualizer skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_D3visualizer.txt"
+  },
+  {
+    "name": "VJSS_Datacleaner",
+    "category": "01_AI_ML_DataScience",
+    "description": "Universal high-performance Datacleaner skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Datacleaner.txt"
+  },
+  {
+    "name": "VJSS_Deeplinkingwiz",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Deeplinkingwiz skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Deeplinkingwiz.txt"
+  },
+  {
+    "name": "VJSS_Demathistorian",
+    "category": "05_Trading_Fintech_Strategy",
+    "description": "Universal high-performance Demathistorian skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Demathistorian.txt"
+  },
+  {
+    "name": "VJSS_Dependencymanager",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Dependencymanager skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Dependencymanager.txt"
+  },
+  {
+    "name": "VJSS_DistributedPlatformCommander",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Autonomous distributed platform and multi-node microservice orchestrator. Manages database synchronization, failover routing, and high-concurrency task execution.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_DistributedPlatformCommander.txt"
+  },
+  {
+    "name": "VJSS_Dividendtracker",
+    "category": "05_Trading_Fintech_Strategy",
+    "description": "Universal high-performance Dividendtracker skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Dividendtracker.txt"
+  },
+  {
+    "name": "VJSS_Djangoexpert",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Djangoexpert skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Djangoexpert.txt"
+  },
+  {
+    "name": "VJSS_Dockermaster",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Dockermaster skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Dockermaster.txt"
+  },
+  {
+    "name": "VJSS_DocsGenerator",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance DocsGenerator skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_DocsGenerator.txt"
+  },
+  {
+    "name": "VJSS_E2ECypress",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance E2ECypress skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_E2ECypress.txt"
+  },
+  {
+    "name": "VJSS_Emailtriage",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Emailtriage skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Emailtriage.txt"
+  },
+  {
+    "name": "VJSS_Encryptionexpert",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Encryptionexpert skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Encryptionexpert.txt"
+  },
+  {
+    "name": "VJSS_Expoexpert",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Expoexpert skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Expoexpert.txt"
+  },
+  {
+    "name": "VJSS_Featuredev",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Guided feature development workflow for Enterprise Engineering Applications. Use when adding new components, broker integrations, or backend services. Follows a systematic 7-phase approach: Discovery, Exploration, Questions, Architecture, Implementation, Quality Review, and Summary.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Featuredev.txt"
+  },
+  {
+    "name": "VJSS_FintechDevops",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Head of Core Infrastructure & DBRE. Use for MariaDB/Redis management, Linux server optimization and performance tuning, background service (PM2/Systemd) configuration, and network security.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_FintechDevops.txt"
+  },
+  {
+    "name": "VJSS_Firewallwiz",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Firewallwiz skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Firewallwiz.txt"
+  },
+  {
+    "name": "VJSS_Flutterdev",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Flutterdev skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Flutterdev.txt"
+  },
+  {
+    "name": "VJSS_Forexexpert",
+    "category": "05_Trading_Fintech_Strategy",
+    "description": "Universal high-performance Forexexpert skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Forexexpert.txt"
+  },
+  {
+    "name": "VJSS_Frontenddesign",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Create distinctive, production-grade frontend interfaces for the Enterprise Engineering Applications. Use when building web components, pages, or trading dashboards. Generates creative, polished code that avoids generic AI aesthetics while adhering to Enterprise Engineering Applications's native HTML/JS architecture.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Frontenddesign.txt"
+  },
+  {
+    "name": "VJSS_GcpPro",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance GcpPro skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_GcpPro.txt"
+  },
+  {
+    "name": "VJSS_Geminiapidev",
+    "category": "01_AI_ML_DataScience",
+    "description": "Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Geminiapidev.txt"
+  },
+  {
+    "name": "VJSS_Gitmaster",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Gitmaster skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Gitmaster.txt"
+  },
+  {
+    "name": "VJSS_Gitworkflow",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Automated and structured Git workflow for Enterprise Engineering Applications. Use to generate conventional commit messages, push changes, and create pull requests using the GitHub CLI (gh).",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Gitworkflow.txt"
+  },
+  {
+    "name": "VJSS_GoogleWorkspacePro",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance GoogleWorkspacePro skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_GoogleWorkspacePro.txt"
+  },
+  {
+    "name": "VJSS_Graphqlmaster",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Graphqlmaster skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Graphqlmaster.txt"
+  },
+  {
+    "name": "VJSS_Grpcexpert",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Grpcexpert skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Grpcexpert.txt"
+  },
+  {
+    "name": "VJSS_IamPolicyExpert",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance IamPolicyExpert skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_IamPolicyExpert.txt"
+  },
+  {
+    "name": "VJSS_Insidertradingmonitor",
+    "category": "05_Trading_Fintech_Strategy",
+    "description": "Universal high-performance Insidertradingmonitor skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Insidertradingmonitor.txt"
+  },
+  {
+    "name": "VJSS_Ionicpro",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Ionicpro skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Ionicpro.txt"
+  },
+  {
+    "name": "VJSS_IosSwiftUi",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance IosSwiftUi skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_IosSwiftUi.txt"
+  },
+  {
+    "name": "VJSS_Jiramanager",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Jiramanager skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Jiramanager.txt"
+  },
+  {
+    "name": "VJSS_Jsontransformer",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Jsontransformer skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Jsontransformer.txt"
+  },
+  {
+    "name": "VJSS_K8SAdmin",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance K8SAdmin skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_K8SAdmin.txt"
+  },
+  {
+    "name": "VJSS_Knowledgebasewiz",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Knowledgebasewiz skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Knowledgebasewiz.txt"
+  },
+  {
+    "name": "VJSS_LoadTesterK6",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance LoadTesterK6 skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_LoadTesterK6.txt"
+  },
+  {
+    "name": "VJSS_Loganalyzer",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Loganalyzer skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Loganalyzer.txt"
+  },
+  {
+    "name": "VJSS_Meetingsummarizer",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Meetingsummarizer skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Meetingsummarizer.txt"
+  },
+  {
+    "name": "VJSS_Microserviceswiz",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Microserviceswiz skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Microserviceswiz.txt"
+  },
+  {
+    "name": "VJSS_Mobilesecurity",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Mobilesecurity skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Mobilesecurity.txt"
+  },
+  {
+    "name": "VJSS_Mutationtesting",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Mutationtesting skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Mutationtesting.txt"
+  },
+  {
+    "name": "VJSS_Nextjspro",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Nextjspro skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Nextjspro.txt"
+  },
+  {
+    "name": "VJSS_Nginxmaster",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Nginxmaster skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Nginxmaster.txt"
+  },
+  {
+    "name": "VJSS_NlpSpecialist",
+    "category": "01_AI_ML_DataScience",
+    "description": "Universal high-performance NlpSpecialist skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_NlpSpecialist.txt"
+  },
+  {
+    "name": "VJSS_Nodearchitect",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Nodearchitect skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Nodearchitect.txt"
+  },
+  {
+    "name": "VJSS_Notionarchitect",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Notionarchitect skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Notionarchitect.txt"
+  },
+  {
+    "name": "VJSS_Ollamalocalexpert",
+    "category": "01_AI_ML_DataScience",
+    "description": "Universal high-performance Ollamalocalexpert skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Ollamalocalexpert.txt"
+  },
+  {
+    "name": "VJSS_Optionschainanalyzer",
+    "category": "05_Trading_Fintech_Strategy",
+    "description": "Advanced options chain intelligence for NIFTY, BANKNIFTY, and FINNIFTY. Provides real-time strike suggestion, Greek analysis, and automated execution logic.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Optionschainanalyzer.txt"
+  },
+  {
+    "name": "VJSS_OwaspValidator",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance OwaspValidator skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_OwaspValidator.txt"
+  },
+  {
+    "name": "VJSS_Pandasdatawizard",
+    "category": "01_AI_ML_DataScience",
+    "description": "Universal high-performance Pandasdatawizard skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Pandasdatawizard.txt"
+  },
+  {
+    "name": "VJSS_Pentestbot",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Pentestbot skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Pentestbot.txt"
+  },
+  {
+    "name": "VJSS_Perfanalyzer",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Perfanalyzer skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Perfanalyzer.txt"
+  },
+  {
+    "name": "VJSS_Piiscanner",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Piiscanner skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Piiscanner.txt"
+  },
+  {
+    "name": "VJSS_Portfoliooptimizer",
+    "category": "05_Trading_Fintech_Strategy",
+    "description": "Universal high-performance Portfoliooptimizer skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Portfoliooptimizer.txt"
+  },
+  {
+    "name": "VJSS_Postgrespro",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Postgrespro skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Postgrespro.txt"
+  },
+  {
+    "name": "VJSS_Promptengineer",
+    "category": "01_AI_ML_DataScience",
+    "description": "Universal high-performance Promptengineer skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Promptengineer.txt"
+  },
+  {
+    "name": "VJSS_PwaBuilder",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance PwaBuilder skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_PwaBuilder.txt"
+  },
+  {
+    "name": "VJSS_Pythonfastapi",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Pythonfastapi skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Pythonfastapi.txt"
+  },
+  {
+    "name": "VJSS_Pytorchdev",
+    "category": "01_AI_ML_DataScience",
+    "description": "Universal high-performance Pytorchdev skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Pytorchdev.txt"
+  },
+  {
+    "name": "VJSS_QuantArchitect",
+    "category": "05_Trading_Fintech_Strategy",
+    "description": "Head of Quantitative Strategy & Alpha Labs. Use for algorithmic trading logic, strategy refactoring, backtesting analysis, and mathematical modeling for quantitative finance models and automated execution engines.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_QuantArchitect.txt"
+  },
+  {
+    "name": "VJSS_Ragarchitect",
+    "category": "01_AI_ML_DataScience",
+    "description": "Universal high-performance Ragarchitect skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Ragarchitect.txt"
+  },
+  {
+    "name": "VJSS_Reactexpert",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Reactexpert skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Reactexpert.txt"
+  },
+  {
+    "name": "VJSS_Reactnativeexpert",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Reactnativeexpert skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Reactnativeexpert.txt"
+  },
+  {
+    "name": "VJSS_Redisspecialist",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Redisspecialist skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Redisspecialist.txt"
+  },
+  {
+    "name": "VJSS_Regexmaster",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Regexmaster skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Regexmaster.txt"
+  },
+  {
+    "name": "VJSS_RiskAuditor",
+    "category": "04_Security_Quality_Testing",
+    "description": "Head of Quality Assurance & Risk Management. Use for capital protection auditing, code reviews, signal veto verification, and enforcing portfolio drawdown limits and risk management guardrails.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_RiskAuditor.txt"
+  },
+  {
+    "name": "VJSS_Riskmanagementbot",
+    "category": "05_Trading_Fintech_Strategy",
+    "description": "Universal high-performance Riskmanagementbot skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Riskmanagementbot.txt"
+  },
+  {
+    "name": "VJSS_Rustbackend",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Rustbackend skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Rustbackend.txt"
+  },
+  {
+    "name": "VJSS_Scikitlearnexpert",
+    "category": "01_AI_ML_DataScience",
+    "description": "Expert AI data science and machine learning engineer using scikit-learn. Token-optimized logic.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Scikitlearnexpert.txt"
+  },
+  {
+    "name": "VJSS_Securityguidance",
+    "category": "04_Security_Quality_Testing",
+    "description": "Proactive security guidance for Enterprise Engineering Applications. Use whenever editing or writing code to identify common security pitfalls like command injection, XSS, insecure deserialization, and credential leaks.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Securityguidance.txt"
+  },
+  {
+    "name": "VJSS_Serverlesswiz",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Serverlesswiz skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Serverlesswiz.txt"
+  },
+  {
+    "name": "VJSS_Shellexpert",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Shellexpert skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Shellexpert.txt"
+  },
+  {
+    "name": "VJSS_Slackbotbuilder",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Slackbotbuilder skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Slackbotbuilder.txt"
+  },
+  {
+    "name": "VJSS_Smartcontext",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Smartcontext skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Smartcontext.txt"
+  },
+  {
+    "name": "VJSS_StrategicOverseer",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Head of Strategic Operations. Use for global mandate enforcement, ecosystem-wide architectural changes, and managing the standard Git commit and release lifecycle GitHub lifecycle.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_StrategicOverseer.txt"
+  },
+  {
+    "name": "VJSS_SuperVJBrain",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "The ultimate Master Orchestrator for the VJSuperSkills ecosystem. Features autonomous skill discovery, token-optimized planning, and a 30-second delayed startup heartbeat.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_SuperVJBrain.txt"
+  },
+  {
+    "name": "VJSS_Superadmin",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal SysAdmin, automation, and project management. Use for task orchestration, health monitoring, environment setup, and general project administration.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superadmin.txt"
+  },
+  {
+    "name": "VJSS_Superarchitect",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Global system design and codebase mapping. Use when starting new projects, refactoring legacy systems, or understanding complex cross-component dependencies in any AI agent environment.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superarchitect.txt"
+  },
+  {
+    "name": "VJSS_Superbuilder",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal 7-phase feature development workflow. Ensures thorough discovery, architecture design, and quality-controlled implementation for any software feature.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superbuilder.txt"
+  },
+  {
+    "name": "VJSS_Superdata",
+    "category": "01_AI_ML_DataScience",
+    "description": "Universal data analysis, transformation, and insight generation. Use when working with CSV, JSON, SQL, or large datasets to normalize schemas or extract business intelligence.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superdata.txt"
+  },
+  {
+    "name": "VJSS_Superdebugger",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Deep root cause analysis and issue resolution. Use when investigating bugs, crashes, or unintended behavior in any software system.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superdebugger.txt"
+  },
+  {
+    "name": "VJSS_Superdevops",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal Git, CI/CD, and deployment automation. Use for branch management, conventional commits, and automated infrastructure workflows.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superdevops.txt"
+  },
+  {
+    "name": "VJSS_Superdocs",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal technical writing and documentation. Use when creating API references, READMEs, architectural overviews, or project-specific SOPs.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superdocs.txt"
+  },
+  {
+    "name": "VJSS_Superfrontend",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Create distinctive, production-grade frontend interfaces. Use when building UI components, dashboards, or web applications with a focus on bold aesthetics and creative design.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superfrontend.txt"
+  },
+  {
+    "name": "VJSS_Superhealing",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Autonomous error resolution engine. Automatically diagnoses failures, fetches documentation, and chains other skills to apply fixes without user intervention.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superhealing.txt"
+  },
+  {
+    "name": "VJSS_Superintelligent",
+    "category": "01_AI_ML_DataScience",
+    "description": "The ultimate auto-fixing, self-improving universal agent skill. Ensures all skills load perfectly into Gemini CLI and Claude Code. Never compromises existing features, always adds new ones, and guarantees 1000-line compliance.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superintelligent.txt"
+  },
+  {
+    "name": "VJSS_Superparallel",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Multi-threaded execution engine for batch processing. Use this to run multiple shell commands or file analyses simultaneously across available CPU cores.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superparallel.txt"
+  },
+  {
+    "name": "VJSS_Superpower",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Superpower skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superpower.txt"
+  },
+  {
+    "name": "VJSS_Superpowersplugin",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "A structured workflow plugin that enforces explore -> plan -> code. Matches Anthropic's best-practice advice but automated. Contains 14 workflow and orchestration skills.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superpowersplugin.txt"
+  },
+  {
+    "name": "VJSS_Superreviewer",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Professional-grade automated code review. Use to audit changes for bugs, security leaks, and architectural integrity. Focuses on high-signal feedback and automated validation.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Superreviewer.txt"
+  },
+  {
+    "name": "VJSS_Supersecurity",
+    "category": "04_Security_Quality_Testing",
+    "description": "Global security auditing and threat modeling. Use to identify vulnerabilities, harden systems, and ensure PII/SPI protection across any project.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Supersecurity.txt"
+  },
+  {
+    "name": "VJSS_Tailwindmaster",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Tailwindmaster skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Tailwindmaster.txt"
+  },
+  {
+    "name": "VJSS_Taskautomator",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Universal high-performance Taskautomator skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Taskautomator.txt"
+  },
+  {
+    "name": "VJSS_Taxoptimizer",
+    "category": "05_Trading_Fintech_Strategy",
+    "description": "Universal high-performance Taxoptimizer skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Taxoptimizer.txt"
+  },
+  {
+    "name": "VJSS_Tensorflowpro",
+    "category": "01_AI_ML_DataScience",
+    "description": "Universal high-performance Tensorflowpro skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Tensorflowpro.txt"
+  },
+  {
+    "name": "VJSS_Terraformexpert",
+    "category": "02_Backend_Cloud_DevOps",
+    "description": "Universal high-performance Terraformexpert skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Terraformexpert.txt"
+  },
+  {
+    "name": "VJSS_Threatmodeler",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Threatmodeler skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Threatmodeler.txt"
+  },
+  {
+    "name": "VJSS_Uiperfectionist",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Expert UI/UX auditing and cross-device testing. Use this skill to identify visual inconsistencies, broken layouts, accessibility issues, and interaction bugs in web applications.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Uiperfectionist.txt"
+  },
+  {
+    "name": "VJSS_Unittestjest",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Unittestjest skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Unittestjest.txt"
+  },
+  {
+    "name": "VJSS_Unitymobile",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Unitymobile skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Unitymobile.txt"
+  },
+  {
+    "name": "VJSS_UniversalCopilot",
+    "category": "06_Universal_Orchestration_Operations",
+    "description": "Master Personal AI Assistant & Skill Orchestrator. Analyzes & refines user intent, dynamically routes 130+ VJSS skills, minimizes token consumption, remembers conversational history, provides proactive recommendations, and guides setup across all AI tools.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_UniversalCopilot.txt"
+  },
+  {
+    "name": "VJSS_VectorDbAdmin",
+    "category": "01_AI_ML_DataScience",
+    "description": "Universal high-performance VectorDbAdmin skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_VectorDbAdmin.txt"
+  },
+  {
+    "name": "VJSS_Visualregression",
+    "category": "04_Security_Quality_Testing",
+    "description": "Universal high-performance Visualregression skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Visualregression.txt"
+  },
+  {
+    "name": "VJSS_Vuespecialist",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance Vuespecialist skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_Vuespecialist.txt"
+  },
+  {
+    "name": "VJSS_WealthUiEngineer",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Head of Wealth Executive UI & Client Portals. Use for Telegram bot message formatting, Enterprise Engineering Applications frontend (HTML/CSS/JS) development, and responsive UI/UX perfection.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_WealthUiEngineer.txt"
+  },
+  {
+    "name": "VJSS_WebglWizard",
+    "category": "03_Frontend_Mobile_UI",
+    "description": "Universal high-performance WebglWizard skill for autonomous AI agents and pair-programming assistants.",
+    "raw_url": "https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/txt_skills/VJSS_WebglWizard.txt"
+  }
+]

@@ -1,0 +1,10 @@
+README.md
+README.txt
+pyproject.toml
+src/vjss/__init__.py
+src/vjss/cli.py
+src/vjss.egg-info/PKG-INFO
+src/vjss.egg-info/SOURCES.txt
+src/vjss.egg-info/dependency_links.txt
+src/vjss.egg-info/entry_points.txt
+src/vjss.egg-info/top_level.txt

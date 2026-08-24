@@ -1,3 +1,21 @@
+Metadata-Version: 2.4
+Name: vjss
+Version: 2.3.0
+Summary: Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi (130 Plain-Text Engineering Protocols)
+Author-email: "Mr. Vishalkumar Joshi" <mrvishaljjoshi@gmail.com>
+License: MIT
+Project-URL: Homepage, https://vjprojects.co.in
+Project-URL: Repository, https://github.com/mrvishaljjoshi-cmyk/VJSS
+Project-URL: Documentation, https://github.com/mrvishaljjoshi-cmyk/VJSS#readme
+Keywords: ai-agents,claude-code,cursor-rules,windsurf-rules,prompt-engineering,antigravity,vjss
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
 # 🧠 VJSS: Universal AI Agent Super-Skills Ecosystem
 
 [![Creator: Mr. Vishalkumar Joshi](https://img.shields.io/badge/Creator-Mr.%20Vishalkumar%20Joshi-blue.svg)](https://github.com/mrvishaljjoshi-cmyk)
@@ -8,7 +26,6 @@
 [![Format: Pure Plain--Text](https://img.shields.io/badge/Format-Pure%20Plain--Text%20(.txt)-blueviolet.svg)](txt_skills/)
 [![Gateway: UniversalCopilot](https://img.shields.io/badge/Gateway-VJSS__UniversalCopilot-red.svg)](txt_skills/VJSS_UniversalCopilot.txt)
 [![Quality Benchmark](https://img.shields.io/badge/Quality%20Benchmark-100%2F100%20A%2B-brightgreen.svg)](tests/benchmark_suite.py)
-[![Web Catalog](https://img.shields.io/badge/Web%20Catalog-Interactive%20Explorer-purple.svg)](web/index.html)
 [![CI Quality Gate](https://github.com/mrvishaljjoshi-cmyk/VJSS/actions/workflows/benchmark.yml/badge.svg)](https://github.com/mrvishaljjoshi-cmyk/VJSS/actions)
 [![GitHub Stars](https://img.shields.io/github/stars/mrvishaljjoshi-cmyk/VJSS?style=social)](https://github.com/mrvishaljjoshi-cmyk/VJSS)
 
@@ -57,10 +74,6 @@
           ║  • ZERO manual skill hunting needed by the user!              ║
           ╚═══════════════════════════════════════════════════════════════╝
 ```
-
-<p align="center">
-  <img src="assets/terminal_demo.svg" alt="VJSS 1-Line Quick Installation Demo" width="100%">
-</p>
 
 ---
 
