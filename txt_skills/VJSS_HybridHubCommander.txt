@@ -1,0 +1,45 @@
+---
+author: Vishal Joshi <vishaljoshi9694@gmail.com>
+sector: General Operations
+name: VJSuperSkills-HybridHubCommander
+description: Autonomous orchestrator for the VJPROJECTS Hybrid Hub. Manages Postgres/Redis synchronization, Gemini-First AI failover, and hardware-pinned task execution (Super-Threading). Use when migrating projects, deploying new features across core groups, or validating the 100% Stability Protocol.
+---
+
+# Hybrid Hub Commander
+
+A specialized skill for managing the high-performance unified architecture of VJPROJECTS.
+
+## Core Operations
+
+### 1. Hybrid Hub Synchronization
+- **Redis (Real-time)**: Subscribe to `market_updates` and `AI_SIGNALS` channels.
+- **PostgreSQL (Persistence)**: Enforce schema consistency for User, Broker, and Trade models.
+- **Command**: `python3 /home/VJPROJECTS/scripts/init_hybrid_hub.py`
+
+### 2. Dual-AI Orchestration (Gemini-First)
+- **Primary**: Attempt `gemini-3.1-pro-preview` via `vj_ai_balancer.py`.
+- **Secondary**: Fallback to local `qwen2.5:7b` on 429 errors or connection timeouts.
+- **Speed**: Use `gemini-3.1-flash-lite-preview` for non-critical NLP tasks.
+
+### 3. Super-Threading & Hardware Pinning
+Always execute tasks using specific CPU core groups to prevent resource contention:
+- **Web (Insight Engine)**: taskset -c 0-7 (Threads 0-7, 12GB RAM)
+- **Trading (AiSmartPrediction)**: taskset -c 8-11 (Threads 8-11, 20GB RAM)
+- **Telegram (Admin Suite)**: taskset -c 12-13 (Threads 12-13, 6GB RAM)
+- **AI/DB (System Core)**: taskset -c 14-15 (Threads 14-15, 20GB RAM)
+
+### 4. 100% Stability Protocol
+After any execution, the Commander MUST verify:
+1. **Login Functionality**: Role switcher and valid credentials check.
+2. **Menu Visibility**: Sidebar (`.app-sidebar`) and Mobile Nav functional.
+3. **Nginx Health**: Successful `systemctl restart nginx`.
+
+## Skill Scripts
+- `scripts/vj_ai_balancer.py`: Unified AI interface.
+- `scripts/global_qa_suite.py`: Automated multi-project verification.
+- `scripts/daily_system_audit.sh`: Health monitoring loop.
+
+
+## 📚 Deep Dive Knowledge Base
+> **TOKEN SAVING PROTOCOL**: Do NOT read the 1000+ line reference unless explicitly required for deep implementation.
+> To access extreme sector-specific detail, run a targeted `read_file` on `references/deep_dive_1000.md`.
