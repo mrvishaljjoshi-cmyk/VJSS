@@ -2,17 +2,17 @@
 
 [![Creator: Mr. Vishalkumar Joshi](https://img.shields.io/badge/Creator-Mr.%20Vishalkumar%20Joshi-blue.svg)](https://github.com/mrvishaljjoshi-cmyk)
 [![Website: vjprojects.co.in](https://img.shields.io/badge/Website-vjprojects.co.in-purple.svg)](https://vjprojects.co.in)
-[![Email: mrvishaljjoshi@gmail.com](https://img.shields.io/badge/Email-mrvishaljjoshi%40gmail.com-orange.svg)](mailto:mrvishaljjoshi@gmail.com)
+[![Contact: vjprojects.co.in](https://img.shields.io/badge/Contact-vjprojects.co.in-orange.svg)](https://vjprojects.co.in)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills: 130 Total](https://img.shields.io/badge/Skills-130%20Total-brightgreen.svg)](INDEX.md)
-[![Format: Pure Plain--Text](https://img.shields.io/badge/Format-Pure%20Plain--Text%20(.txt)-blueviolet.svg)](txt_skills/)
+[![Skills: 166 Total](https://img.shields.io/badge/Skills-166%20Total-brightgreen.svg)](INDEX.md)
+[![Format: Markdown (.md)](https://img.shields.io/badge/Format-Markdown%20(.md)-blueviolet.svg)](skills/)
 [![Gateway: UniversalCopilot](https://img.shields.io/badge/Gateway-VJSS__UniversalCopilot-red.svg)](txt_skills/VJSS_UniversalCopilot.txt)
 [![Quality Benchmark](https://img.shields.io/badge/Quality%20Benchmark-100%2F100%20A%2B-brightgreen.svg)](tests/benchmark_suite.py)
 [![Web Catalog](https://img.shields.io/badge/Web%20Catalog-Interactive%20Explorer-purple.svg)](web/index.html)
 [![CI Quality Gate](https://github.com/mrvishaljjoshi-cmyk/VJSS/actions/workflows/benchmark.yml/badge.svg)](https://github.com/mrvishaljjoshi-cmyk/VJSS/actions)
 [![GitHub Stars](https://img.shields.io/github/stars/mrvishaljjoshi-cmyk/VJSS?style=social)](https://github.com/mrvishaljjoshi-cmyk/VJSS)
 
-**VJSS (Vishal Joshi Super-Skills)** is the ultimate production-grade collection of **130 specialized AI engineering protocols and prompt skills**, created and architected by **Mr. Vishalkumar Joshi**. Built in **pure plain-text (`.txt`)**, it gives autonomous AI agents and pair-programming assistants superhuman capabilities across architecture, backend, frontend, cloud, security, and algorithmic fintech.
+**VJSS (Vishal Joshi Super-Skills)** is a production-grade collection of **166 specialized AI agent skills**, created by **Mr. Vishalkumar Joshi**. Built in **structured Markdown (`.md`)**, it gives AI coding assistants deep expertise across 7 domains — from backend architecture and cloud infrastructure to security auditing and algorithmic trading.
 
 > ⭐ **If you find VJSS useful, please give it a star on GitHub — it helps the project grow and empowers developers worldwide!**
 
@@ -27,36 +27,18 @@
 > 3. **Absolute Priority = Save Tokens (80/20 Rule):** Keep context fast and cheap via targeted line reads, compact runbooks, and Redis SmartContext.
 > 4. **Auto-Call Specialized Skills & JIT Fetch:** When a domain task is encountered (FastAPI, Docker, React, K8s, OWASP, ATR Backtesting), the AI agent **autonomously loads or JIT-fetches that matching skill in the background**. Zero manual file hunting!
 
-```
-                     USER PROMPT (Natural language, brief, or typos)
-                                           │
-                                           ▼
-          ╔═══════════════════════════════════════════════════════════════╗
-          ║                  STEP 1: INSTALL THIS 1 SKILL                 ║
-          ║                    `VJSS_UniversalCopilot`                    ║
-          ║      (Installed in Claude Code / Cursor / Windsurf / etc.)    ║
-          ╚═══════════════════════════════════════════════════════════════╝
-                                           │
-                ┌──────────────────────────┴──────────────────────────┐
-                ▼                                                     ▼
-     [1. Intent Optimizer]                                 [2. Token Shield Guard]
-      • Decodes user objective                              • Strict 80/20 brevity
-      • Auto-corrects typos                                 • Targeted line reads
-                │                                                     │
-                └──────────────────────────┬──────────────────────────┘
-                                           │
-                                           ▼
-                    [3. Autonomous Dynamic Skill Fetcher]
-                     • Detects exact domain requirement
-                     • AUTONOMOUSLY loads `txt_skills/VJSS_<SkillName>.txt`
-                                           │
-                                           ▼
-          ╔═══════════════════════════════════════════════════════════════╗
-          ║              STEP 2: AGENT AUTO-LOADS & EXECUTES              ║
-          ║  • Adopts strict engineering SOPs & security checks           ║
-          ║  • Delivers working code + Proactive Recommendations          ║
-          ║  • ZERO manual skill hunting needed by the user!              ║
-          ╚═══════════════════════════════════════════════════════════════╝
+```mermaid
+flowchart TD
+    A["🗣️ User Prompt<br/>(Natural language, brief, or typos)"] --> B["📦 STEP 1: Install VJSS_UniversalCopilot<br/>(Claude Code / Cursor / Windsurf / Antigravity)"]
+    B --> C["🎯 Intent Optimizer<br/>Decodes objective & auto-corrects typos"]
+    B --> D["🛡️ Token Shield Guard<br/>80/20 brevity & targeted line reads"]
+    C --> E["⚡ Autonomous Skill Fetcher<br/>Detects domain & loads matching skill"]
+    D --> E
+    E --> F["✅ STEP 2: Agent Executes<br/>Engineering SOPs + Security checks<br/>Working code + Recommendations<br/>Zero manual skill hunting!"]
+
+    style A fill:#1a1a2e,stroke:#00d4ff,color:#fff
+    style B fill:#16213e,stroke:#0f3460,color:#fff
+    style F fill:#0f3460,stroke:#00d4ff,color:#fff
 ```
 
 <p align="center">
@@ -70,30 +52,30 @@
 ### Option A: Remote 1-Liner (Zero Clone Needed)
 ```bash
 # Linux / macOS (All 6 AI Tools):
-curl -fsSL https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/install.sh | bash -s -- --all
+curl -fsSL https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/scripts/install.sh | bash -s -- --all
 
 # Windows PowerShell:
-irm https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/mrvishaljjoshi-cmyk/VJSS/main/scripts/install.ps1 | iex
 ```
 
 ### Option B: Local Clone & Target Tool Installer
 ```bash
 git clone https://github.com/mrvishaljjoshi-cmyk/VJSS.git
 cd VJSS
-./install.sh
+./scripts/install.sh
 ```
 
 | Tool | 1-Line Command | What It Does |
 | :--- | :--- | :--- |
-| **🔵 Google Antigravity & Gemini CLI** | `./install.sh --agy` | Syncs 130 native progressive disclosure skills to `~/.gemini/config/skills/` |
-| **🟣 Claude Code CLI** | `./install.sh --claude` | Injects VJSS Bootloader into `./CLAUDE.md` with JIT skill fetcher |
-| **🟡 Cursor IDE** | `./install.sh --cursor` | Configures `./.cursorrules` and `./.cursor/rules/vjss_universal_copilot.mdc` |
-| **🌊 Windsurf IDE (Cascade)** | `./install.sh --windsurf` | Configures `./.windsurfrules` with 80/20 token shield |
-| **🟢 VS Code & GitHub Copilot** | `./install.sh --vscode` | Generates `./.github/copilot-instructions.md` |
-| **🤖 Roo Code & Cline** | `./install.sh --cline` | Generates `./.clinerules` and `./.roomodes` |
-| **⭐ ALL TOOLS** | `./install.sh --all` | Configures all 6 coding tools in one click |
+| **🔵 Google Antigravity & Gemini CLI** | `./scripts/install.sh --agy` | Syncs 166 native progressive disclosure skills to `~/.gemini/config/skills/` |
+| **🟣 Claude Code CLI** | `./scripts/install.sh --claude` | Injects VJSS Bootloader into `./CLAUDE.md` with JIT skill fetcher |
+| **🟡 Cursor IDE** | `./scripts/install.sh --cursor` | Configures `./.cursorrules` and `./.cursor/rules/vjss_universal_copilot.mdc` |
+| **🌊 Windsurf IDE (Cascade)** | `./scripts/install.sh --windsurf` | Configures `./.windsurfrules` with 80/20 token shield |
+| **🟢 VS Code & GitHub Copilot** | `./scripts/install.sh --vscode` | Generates `./.github/copilot-instructions.md` |
+| **🤖 Roo Code & Cline** | `./scripts/install.sh --cline` | Generates `./.clinerules` and `./.roomodes` |
+| **⭐ ALL TOOLS** | `./scripts/install.sh --all` | Configures all 6 coding tools in one click |
 
-*(Windows users: run `install.bat` or `install.ps1`)*
+*(Windows users: run `scripts/install.bat` or `scripts/install.ps1`)*
 
 ---
 
@@ -129,28 +111,28 @@ cat txt_skills/VJSS_UniversalCopilot.txt > .windsurfrules
 
 ```
 VJSS/
-├── install.sh                       # 1-Click interactive & CLI installer for Linux/macOS
-├── install.bat                      # 1-Click installer for Windows
-├── txt_skills/                      # Flat library of all 130 .txt files for instant attachment
+├── scripts/                         # Installer scripts (Linux, Windows, PowerShell)
+│   ├── install.sh                   # 1-Click interactive & CLI installer for Linux/macOS
+│   ├── install.bat                  # 1-Click installer for Windows
+│   └── install.ps1                  # PowerShell installer
+├── txt_skills/                      # Flat library of all .txt skill files for legacy compatibility
 │   ├── VJSS_UniversalCopilot.txt    # 🌟 THE 1 MASTER GATEWAY SKILL (Install this first)
 │   ├── VJSS_PythonFastapi.txt       # High-performance async FastAPI architecture
-│   ├── VJSS_DockerMaster.txt        # Production multi-stage containerization
-│   └── ... (130 plain-text skills)
-├── categories/                      # Organized by 6 Technical Domains (contains pure SKILL.txt)
-│   ├── 01_AI_ML_DataScience/        # 14 Skills: Scikit-Learn, PyTorch, TensorFlow, NLP, RAG, Vector DB
-│   ├── 02_Backend_Cloud_DevOps/     # 23 Skills: Python, Node, Rust, AWS, GCP, Azure, Docker, K8s
-│   ├── 03_Frontend_Mobile_UI/       # 22 Skills: React, Next.js, Vue, Flutter, SwiftUI, Tailwind, UI/UX
-│   ├── 04_Security_Quality_Testing/ # 22 Skills: OWASP, Pentesting, Encryption, E2E Cypress, Jest, K6
-│   ├── 05_Trading_Fintech_Strategy/ # 12 Skills: Backtesting, Options Chain, Quant Logic, Risk Control
-│   └── 06_Universal_Orchestration_Operations/ # 37 Skills: UniversalCopilot, SuperAdmin, Architect, Debugger
+│   └── ... (skill plain-text files)
+├── categories/                      # Organized by 7 Technical Domains
+│   ├── 01_AI_ML_DataScience/        # AI, ML, RAG, Vector DBs, NLP
+│   ├── 02_Backend_Cloud_DevOps/     # Python, Node, Rust, AWS, GCP, Docker, K8s
+│   ├── 03_Frontend_Mobile_UI/       # React, Next.js, Vue, Flutter, SwiftUI, Tailwind
+│   ├── 04_Security_Quality_Testing/ # OWASP, Pentesting, Encryption, E2E, Jest, K6
+│   ├── 05_Trading_Fintech_Strategy/ # Backtesting, Options Chain, Quant Logic, Risk
+│   └── 06_Universal_Orchestration/  # UniversalCopilot, SuperAdmin, Architect, Debugger
 ├── INDEX.md & INDEX.txt             # Complete alphabetized catalog
-├── README.txt                       # Pure plain-text guide
-└── README.md                        # Master GitHub documentation
+└── README.md                        # Master documentation
 ```
 
 ---
 
-## 📊 Complete Categorized Skills Inventory (130 Total Skills)
+## 📊 Complete Categorized Skills Inventory (166 Total Skills)
 
 ### 1. AI ML DataScience (14 Skills)
 | Skill Name | Description | Plain-Text File |
@@ -304,7 +286,7 @@ VJSS/
 | **`VJSS_Superpowersplugin`** | A structured workflow plugin that enforces explore -> plan -> code. Matches Anthropic's best-practice advice but automated. Contains 14 workflow and orchestration skills. | [`txt_skills/VJSS_Superpowersplugin.txt`](txt_skills/VJSS_Superpowersplugin.txt) |
 | **`VJSS_Superreviewer`** | Professional-grade automated code review. Use to audit changes for bugs, security leaks, and architectural integrity. Focuses on high-signal feedback and automated validation. | [`txt_skills/VJSS_Superreviewer.txt`](txt_skills/VJSS_Superreviewer.txt) |
 | **`VJSS_Taskautomator`** | Universal high-performance Taskautomator skill for autonomous AI agents and pair-programming assistants. | [`txt_skills/VJSS_Taskautomator.txt`](txt_skills/VJSS_Taskautomator.txt) |
-| **`VJSS_UniversalCopilot`** ⭐ **[MASTER GATEWAY]** | Master Personal AI Assistant & Skill Orchestrator. Analyzes & refines user intent, dynamically routes 130+ VJSS skills, minimizes token consumption, remembers conversational history, provides proactive recommendations, and guides setup across all AI tools. | [`txt_skills/VJSS_UniversalCopilot.txt`](txt_skills/VJSS_UniversalCopilot.txt) |
+| **`VJSS_UniversalCopilot`** ⭐ **[MASTER GATEWAY]** | Master Personal AI Assistant & Skill Orchestrator. Analyzes & refines user intent, dynamically routes 166 VJSS skills, minimizes token consumption, remembers conversational history, provides proactive recommendations, and guides setup across all AI tools. | [`txt_skills/VJSS_UniversalCopilot.txt`](txt_skills/VJSS_UniversalCopilot.txt) |
 
 ---
 
@@ -322,7 +304,7 @@ All Pull Requests are automatically validated by our [**GitHub Actions CI Benchm
 | **Creator & Author** | **Mr. Vishalkumar Joshi** |
 | **Official Website** | [https://vjprojects.co.in](https://vjprojects.co.in) |
 | **GitHub Profile** | [@mrvishaljjoshi-cmyk](https://github.com/mrvishaljjoshi-cmyk) |
-| **Official Email** | [mrvishaljjoshi@gmail.com](mailto:mrvishaljjoshi@gmail.com) |
+| **Contact** | [vjprojects.co.in](https://vjprojects.co.in) |
 | **Project Repository** | [https://github.com/mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) |
 
 ---
