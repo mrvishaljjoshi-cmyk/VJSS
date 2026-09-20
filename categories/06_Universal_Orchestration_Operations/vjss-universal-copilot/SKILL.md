@@ -1,14 +1,14 @@
 ---
 name: vjss-universal-copilot
 description: >-
-  Master AI Assistant Gateway & Universal Super-Skills Bootloader by Mr. Vishalkumar Joshi. Verifies session startup, optimizes intent, and manages all 161 VJSS skills across 7 domains with autonomous JIT remote downloading & dispatching.
+  Master AI Assistant Gateway & Universal Super-Skills Bootloader by Mr. Vishalkumar Joshi. Verifies session startup, optimizes intent, and manages all 166 VJSS skills across 7 domains with autonomous JIT remote downloading & dispatching.
 ---
 
-# 🌟 VJSS Master Protocol: Universal Copilot & 161-Skill Bootloader
+# 🌟 VJSS Master Protocol: Universal Copilot & 166-Skill Bootloader
 **Domain:** `Master Autonomous Orchestration, Intent Auto-Optimization, JIT Skill Routing & Enterprise System Administration`
 **Category:** `06_Universal_Orchestration_Operations` (Master Autonomous Orchestration)
 **Creator & Lead Architect:** Mr. Vishalkumar Joshi • [VJSS Repository](https://github.com/mrvishaljjoshi-cmyk/VJSS) • [Website](https://vjprojects.co.in)
-**Total Ecosystem Capacity:** **161 Specialized Engineering & Trading Skills (100% Grade A+)**
+**Total Ecosystem Capacity:** **166 Specialized Engineering & Trading Skills (100% Grade A+)**
 
 ---
 
@@ -28,7 +28,7 @@ On **EVERY** conversation turn across all projects and coding tools:
 
 ---
 
-## 📋 2. Master 161-Skill Categorized Index Menu (7 Domains)
+## 📋 2. Master 166-Skill Categorized Index Menu (7 Domains)
 
 ### 📁 01 AI ML DataScience (18 Skills)
 *AI, Machine Learning, Data Science & Vector Databases*
@@ -172,11 +172,12 @@ On **EVERY** conversation turn across all projects and coding tools:
 | **`vjss-riskmanagementbot`** | Capital Protection, Max Drawdown Circuits & Position Sizing | `riskmanagementbot`, `capital` |
 | **`vjss-taxoptimizer`** | Trading Capital Gains Tax Optimization & STCG/LTCG Calculations | `taxoptimizer`, `trading` |
 
-### 📁 06 Universal Orchestration Operations (45 Skills)
+### 📁 06 Universal Orchestration Operations (49 Skills)
 *Master Autonomous Orchestration, SysAdmin & Optimization*
 
 | Skill Identifier | Domain & Purpose | Trigger Keywords |
 | :--- | :--- | :--- |
+| **`vjss-adhd-focus`** | ADHD Hyper-Focus, Cognitive Grounding & Micro-Task Sequencing | `adhd-focus`, `adhd` |
 | **`vjss-asttransformer`** | Abstract Syntax Tree (AST) Code Analysis & Automated Refactoring | `asttransformer`, `abstract` |
 | **`vjss-authsystembuilder`** | Authentication & Authorization Architecture (JWT, OAuth2, RBAC) | `authsystembuilder`, `authentication` |
 | **`vjss-calendaroptimizer`** | Time Management, Developer Productivity & Calendar Automation | `calendaroptimizer`, `time` |
@@ -202,6 +203,7 @@ On **EVERY** conversation turn across all projects and coding tools:
 | **`vjss-meetingsummarizer`** | Meeting Summarization, Action Item Extraction & Minutes of Meeting | `meetingsummarizer`, `meeting` |
 | **`vjss-notionarchitect`** | Notion Workspace Database Architecture & Templates | `notionarchitect`, `notion` |
 | **`vjss-poka-yoke-sre`** | Japanese Poka-Yoke Mistake-Proofing & Automated Rollback Circuits | `poka-yoke-sre`, `japanese` |
+| **`vjss-ponytail`** | Principal Anti-Overengineering & YAGNI 6-Rung Decision Ladder Enforcement | `ponytail`, `yagni` |
 | **`vjss-regexmaster`** | Regular Expression Engineering, Regex Optimization & Text Parsing | `regexmaster`, `regular` |
 | **`vjss-service-delivery-vp`** | Enterprise Service Delivery Management & ITIL v4 Master Lifecycle | `service-delivery-vp`, `enterprise` |
 | **`vjss-shellexpert`** | Advanced Bash/Zsh Shell Scripting & Linux System Administration | `shellexpert`, `advanced` |
@@ -219,8 +221,9 @@ On **EVERY** conversation turn across all projects and coding tools:
 | **`vjss-superpower`** | Master Execution Enhancer for Autonomous AI Agents | `superpower`, `master` |
 | **`vjss-superpowersplugin`** | Explore -> Plan -> Code Structured Engineering Workflow | `superpowersplugin`, `explore` |
 | **`vjss-superreviewer`** | Automated Security, Correctness & Architectural Code Review | `superreviewer`, `automated` |
+| **`vjss-task-observer`** | Autonomous Task Lifecycle Observation, Context Traceability & Real-Time Telemetry | `task-observer`, `telemetry` |
 | **`vjss-taskautomator`** | Developer Task Automation & Repetitive Workflow Scripting | `taskautomator`, `developer` |
-| **`vjss-universal-copilot`** | Master Personal AI Assistant Gateway & 161-Skill Orchestrator | `universal-copilot`, `master` |
+| **`vjss-universal-copilot`** | Master Personal AI Assistant Gateway & 166-Skill Orchestrator | `universal-copilot`, `master` |
 | **`vjss-universal-project-adapter`** | Universal Context Sensing & Client Coding Standard Matching | `universal-project-adapter`, `universal` |
 
 ### 📁 07 Scientific Research PhD Academic (4 Skills)
